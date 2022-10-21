@@ -1,3 +1,4 @@
-#!/bin/
+import os
 
-print("ls")
+
+print(os.listdir())
