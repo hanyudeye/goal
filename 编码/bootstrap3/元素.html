@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元素的讲解</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+
+        <h2>清风宁</h2>
+        <p> 你好，世界！</p>
+        <p>你好世界<a href="#">链接</a></p>
+
+        <h2>唐诗</h2>
+        <ol class="list-unstyled list-inline">
+            <li>清风徐来</li>
+            <li>水波荡漾</li>
+        </ol>
+
+
+        <h2>表格</h2>
+        <table class="table table-bordered table-striped ">
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+            </tr>
+            <tr>
+                <td>小明</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>小李</td>
+                <td>13</td>
+            </tr>
+        </table>
+
+        <h2>表单</h2>
+
+        <form action="test.php" class="form-horizontal">
+            <div class="form-group">
+                <label for="">姓名：</label>
+                <input type="text" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">喜欢吃什么</label>
+                <select class="form-control" multiple name="eat[]" id="">
+                    <option>青菜</option>
+                    <option>鱼</option>
+                    <option>白菜</option>
+                </select>
+            </div>
+            <button class="btn btn-primary">提交</button>
+            <div class="from-group">
+                <input type="submit" value="提交" class="btn btn-primary">
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
