@@ -19,6 +19,8 @@
         <h2>清风宁</h2>
         <p> 你好，世界！</p>
         <p>你好世界<a href="#">链接</a></p>
+        <p class="pull-right">右边浮动</p>
+        <p class="pull-left">左浮动</p>
 
         <h2>唐诗</h2>
         <ol class="list-unstyled list-inline">
@@ -52,19 +54,49 @@
             </div>
             <div class="form-group">
                 <label for="">喜欢吃什么</label>
-                <select class="form-control" multiple name="eat[]" id="">
+                <select class="form-control" name="eat[]" id="">
                     <option>青菜</option>
                     <option>鱼</option>
                     <option>白菜</option>
                 </select>
             </div>
-            <button class="btn btn-primary">提交</button>
-            <div class="from-group">
-                <input type="submit" value="提交" class="btn btn-primary">
+            <div class="form-group">
+                <label for="">静态控件</label>
+                <div class="form-control-static">
+                    email@example.com
+                </div>
             </div>
+            <div class="form-group has-success ">
+                <label class=" control-label">输入警告</label>
+                <div class="">
+                    <input type="text" class="form-control" id="inputWarning">
+                    <span class="help-block">
+                        这是说明 <span class="glyphicon glyphicon-search"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary ">提交</button>
+                <button class="btn">返回</button>
+                <button class="close">&times;</button>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Sony</button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Smartphone</a></li>
+                </ul>
+            </div>
+
         </form>
 
     </div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 
 </html>
