@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery 查询语法糖的使用</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h1>标题</h1>
+    <p>内容</p>
+
+
+    <script>
+        $('h1').append("title");
+        $("p").prepend("content")
+
+        let eleh1 = $('h1').clone()
+        $("p").append(eleh1)
+
+        $.post("http://tp6.bb/",
+            { name: 'Brad' },
+            function (data) {
+                $('h1').append(data)
+
+            },
+            "json"
+        );
+
+
+    </script>
+</body>
+
+</html>
