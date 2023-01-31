@@ -9,6 +9,11 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 </head>
 
+<style>
+    .h1color{
+        color: bisque;
+    }
+</style>
 <body>
 
     <h1>标题</h1>
@@ -26,10 +31,23 @@
             { name: 'Brad' },
             function (data) {
                 $('h1').append(data)
-
             },
             "json"
         );
+
+        // $("h1").hide()
+        //渐隐
+        // $("h1").fadeOut('slow')
+
+        // $("h1").animate({
+        //     up:"+=150",
+        //     opacity:0.25
+        // },3000);
+
+        //设置属性
+        // $("h1").attr("class","h1color")
+        //不存在就添加，存在就删除
+        $("h1").toggleClass("h1color")
 
 
     </script>
