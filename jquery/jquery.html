@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery 查询语法糖的使用</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<style>
+    .h1color{
+        color: bisque;
+    }
+</style>
+<body>
+
+    <h1>标题</h1>
+    <p>内容</p>
+
+
+    <script>
+        $('h1').append("title");
+        $("p").prepend("content")
+
+        let eleh1 = $('h1').clone()
+        $("p").append(eleh1)
+
+        $.post("http://tp6.bb/",
+            { name: 'Brad' },
+            function (data) {
+                $('h1').append(data)
+            },
+            "json"
+        );
+
+        // $("h1").hide()
+        //渐隐
+        // $("h1").fadeOut('slow')
+
+        // $("h1").animate({
+        //     up:"+=150",
+        //     opacity:0.25
+        // },3000);
+
+        //设置属性
+        // $("h1").attr("class","h1color")
+        //不存在就添加，存在就删除
+        $("h1").toggleClass("h1color")
+
+
+    </script>
+</body>
+
+</html>
