@@ -1,13 +1,10 @@
 
 mobile/
 *.class
-<<<<<<< HEAD
 node_modules/
 *.o
 *.out
 main
 arguments
-=======
 *.exe
 *.pdb
->>>>>>> ce4aa3db89e4527a9eedee213615afd3e0064eda
