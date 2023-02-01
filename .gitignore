@@ -1,3 +1,5 @@
 
 mobile/
 *.class
+*.exe
+*.pdb
