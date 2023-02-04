@@ -28,7 +28,6 @@ export default defineComponent({
   //     title: "我是标题",
   //     content:"lorem lorem"
   // },
-
   // },
   methods: {
     handle() {
