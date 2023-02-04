@@ -41,6 +41,13 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: "home",
+  // data 是 vue2 中方法 
+  // data() {
+  // return {
+  //     title: "我是标题",
+  //     content:"lorem lorem"
+  // },
+  // },
   methods: {
     handle() {
       console.log("handle1");
