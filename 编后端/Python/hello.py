@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 count=10
 
 while count>0:
