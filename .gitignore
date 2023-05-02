@@ -1,3 +1,10 @@
 
 mobile/
 *.class
+node_modules/
+*.o
+*.out
+main
+arguments
+*.exe
+*.pdb
