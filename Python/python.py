@@ -16,9 +16,3 @@ print(list("hello")[0])
 # print(math.e)
 # print(math.floor(3.5573))
 # print(math.trunc(4.123))
-
-import sys
-# print(sys.path)
-# print(sys.version)
-import os
-# print(os.environ)
