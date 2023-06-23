@@ -1,7 +1,3 @@
-print("hello")
-print(list("hello")[0])
-# print(set("niceeeeo"))
-# print(set("inceeeeo"))
 
 # print(ord("a"))
 # print(chr(97))
@@ -16,3 +12,5 @@ print(list("hello")[0])
 # print(math.e)
 # print(math.floor(3.5573))
 # print(math.trunc(4.123))
+string = "hello"
+print(set(string))
