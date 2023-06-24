@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script> -->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.2.47/vue.global.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.10/vue.js"></script>
     <title>Hello Vue</title>
 </head>
 
@@ -17,12 +19,18 @@
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam sapiente explicabo error culpa nisi cupiditate enim odio labore esse odit? Nostrum placeat in quod tempore optio modi assumenda provident quasi?
 </p>
        <img src="http://a.com/a.png" >
+        <h2>金额{{money}}</h2>
+        按钮：{{html_button}}
+        <span v-html="html_button"></span>
+        {{show_text}}
     </div>
     <script>
         var app = new Vue({
             el: '#app',
             data: {
-                show_text: 'hello,world'
+                money: 33,
+                show_text: 'hello,world',
+                html_button: "<button>按钮</button>"
             }
         });
     </script>
