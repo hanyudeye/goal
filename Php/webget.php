@@ -11,3 +11,4 @@ print_r($_SERVER);
 
 // 保存在浏览器的参数
 // print_r($_COOKIE);
+
