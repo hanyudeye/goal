@@ -5,5 +5,4 @@ a=3+4j
 print(a)
 
 # 特殊字符的打印
-
 print("""helwo "dfanigh*!@#$%^^^*()""")
