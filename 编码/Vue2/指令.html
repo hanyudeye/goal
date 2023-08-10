@@ -13,16 +13,28 @@
     <div id="app">
         <h2>{{title}}</h2>
         <p v-html="content"></p>
+        <p v-if="true">显示/隐藏元素</p>
         <p v-show="false">隐藏元素</p>
+        <ul>
+            <li v-for="item in [1,2,3,4]">{{item}}</li>
+        </ul>
+
+        <h2>学校</h2>
+        <p>{{school.name}}</p>
+
 
     </div>
 
     <script>
-        new Vue({
+        var app=new Vue({
             el: "#app",
             data: {
                 title: "指令的用法",
-                content: "<h3>指令的用法就是，这个这个...</h3>"
+                content: "<h3>指令的用法就是，这个这个...</h3>",
+                school:{
+                    name:"XX学校",
+                    mobile:"400-468"
+                }
             }
 
         });
