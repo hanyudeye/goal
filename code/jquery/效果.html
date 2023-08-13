@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>效果</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+
+<body>
+    <div>
+        <h2>隐藏或显示</h2>
+        <div class="something">
+            这里是显示的内容
+        </div>
+
+        <button class="showSwitch  ">点击进行隐藏或显示切换</button>
+
+        <h2>渐变隐藏或显示</h2>
+        <div class="fadesomething">
+            这里是显示的内容
+        </div>
+
+        <button class="fadeshowSwitch  ">点击进行隐藏或显示切换</button>
+
+
+
+    </div>
+
+    <script>
+        // hide隐藏
+       $(".showSwitch").click(function(){
+        $(".something").toggle();
+       }) 
+
+       //fade事件处理
+       $(".fadeshowSwitch").click(function(){
+        $(".fadesomething").fadeToggle();
+       }) 
+
+
+
+    </script>
+</body>
+
+</html>
