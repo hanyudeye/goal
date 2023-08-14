@@ -8,7 +8,6 @@ from  bs4 import BeautifulSoup
 
 # urlopen 对于不存在的网页会报错中断，所以要异常处理
 
-
 # html=urlopen("https://pythonscraping.com/pages/page1.html")
 # 读取本地文件 J:\me\Shijian\code\Html\404.html
 def getTitle(url):
