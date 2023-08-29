@@ -1,16 +1,19 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <FirstPage></FirstPage>
+  <SecondPage></SecondPage>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import FirstPage from './components/FirstPage.vue'
+import SecondPage from './components/SecondPage.vue';
 
 export default {
   name: 'App',
   components: {
-    FirstPage
+    FirstPage,
+    SecondPage
   }
 }
 </script>
