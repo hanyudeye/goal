@@ -10,5 +10,4 @@ arguments
 *.pdb
 thinkphp/
 vue2/
-vue3/
 *.pyc
