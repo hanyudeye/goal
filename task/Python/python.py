@@ -12,5 +12,6 @@
 # print(math.e)
 # print(math.floor(3.5573))
 # print(math.trunc(4.123))
-string = "hello"
-print(set(string))
+# string = "hello"
+# print(set(string))
+
