@@ -21,21 +21,27 @@
         .e2{
             width: 70%;
             border: 1rem solid GreenYellow;
+
+        }
+
+        button{
+            font-size: 1em;
+            background-color: aquamarine;
+            border-radius: 5px;
+            border-style: none;
+        }
+
+        button::before{
+            content: "1";
         }
     </style>
 </head>
 
 <body>
     <div>
-        <p class="e1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestias dolorum consequuntur.
-            Provident
-            necessitatibus dolores cum, dolor quasi tempora beatae sit placeat autem ex, eius ut? Ad magnam beatae
-            culpa!</p>
-        <p class="e2">
-            - 内容排列 text-align 不光是文字排列 (left,right,center,word-spacing ,letter-spacing)
-            - line-height 行高
-            - 文本装饰 text-decoration underline(下划线) overline(上划线) line-through(穿过线) blink(闪烁) inherit
-        </p>
+        <div class="el2">hello</div>
+        <div class="content"></div>
+        <button>按钮</button>
     </div>
 </body>
 
