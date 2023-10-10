@@ -1,1 +1,0 @@
-console.log(escape("阿明 hello "))
