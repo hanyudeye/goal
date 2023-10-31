@@ -1,7 +1,29 @@
 
-# 对象之间的比较
+# is : 判断对象是不是同一类型
 
-import re;
+import re
+import sys
+import os
+
+
+class O:
+    pass
+
+# 继承
+
+
+class P(O):
+    pass
+
+
+a = b = O()
+c = P()
+
+print(a is b)
+print(a is c)
+print(c is a)
+print(isinstance(c, O))
+
 
 
 def compare(a, b):
@@ -13,9 +35,11 @@ def compare(a, b):
         print("a和b有相同的类型")
 
 
+
 # result=re.match("helo","heloo",0).group()
 # print(result)
 
+# sys.exit()
 # 二进制
 # print(0b101)
 # 八进制
@@ -60,26 +84,32 @@ print("hello")
 print(集合2)
 
 # 类是为了对象复用,因为函数也包含在对象里面,所以函数也能复用
+
+
 class Person:
-   def __init__(self, name, age, sex:str):
+    def __init__(self, name, age, sex: str):
         self.name = name
         self.age = age
         self.sex = sex
 
-   def name(self):
+    def name(self):
         return self.name
 
-   def age(self):
+    def age(self):
         return self.age
 
-小李=Person("小李",33,"女")
+
+小李 = Person("小李", 33, "女")
 print(小李.age)
 
 # 类的继承
+
+
 class 黑人(Person):
     def __init__(self, name, age, sex: str):
         super().__init__(name, age, sex)
-        self.color="黑色"
+        self.color = "黑色"
 
-小黑=黑人("小黑",23,"女")
+
+小黑 = 黑人("小黑", 23, "女")
 print(小黑.color)
