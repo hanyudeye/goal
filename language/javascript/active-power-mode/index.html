@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>打字爆炸效果</h1>
+
+    <form action="">
+        <label for="">名字</label>
+        <input type="text" name="name" id="">
+    </form>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia sunt, atque tenetur provident nihil commodi eveniet omnis maxime quo veniam vitae obcaecati minima totam! Aut, sunt aspernatur! Exercitationem, illum!</p>
+    <script src="activate-power-mode.js"></script>
+    <script>
+        POWERMODE.colorful = true; // make power mode colorful
+        POWERMODE.shake = false; // turn off shake
+        // 这是打字
+        document.body.addEventListener('input', POWERMODE);
+
+        // 添加鼠标左键
+        document.body.addEventListener('click',POWERMODE);
+    </script>
+</body>
+
+</html>
