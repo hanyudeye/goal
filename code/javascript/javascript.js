@@ -25,3 +25,7 @@ try {
 // Unicode 全球文字
 
 console.log("hello\u0020world")
+
+
+//字符串操作
+console.log("hello".concat(" world").toUpperCase());
