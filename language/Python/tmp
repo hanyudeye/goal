@@ -1,0 +1,284 @@
+             voice data.
+--version 打印 espeak 库版本和 espeak 语音数据的位置。
+       -f <text file>
+              Text file to speak.
+-f <文本文件>要朗读的文本文件。
+       --stdin
+              Read text input from stdin instead of a file.
+--stdin 从 stdin 而不是文件读取文本输入。
+       If  neither  -f  nor --stdin are provided, <words> are spoken, or if no
+       words are provided then text is spoken from stdin a line at a time.
+如果既没有提供 -f 也没有提供 --stdin  ，则会说出，或者如果未提供任何单词，则一次从 stdin 说出一行文本。
+       -q     Quiet, don´t produce any speech (may be useful with -x).
+-q 安静，不产生任何语音（可能对 -x 有用）。
+       -a <integer>
+              Amplitude, 0 to 200, default is 100.
+       -g <integer>
+              Word gap. Pause between words, units  of  10ms  at  the  default
+              speed.
+-g  字间隙。在单词之间暂停，以默认速度为 10 毫秒为单位。
+       -k <integer>
+              Indicate  capital  letters with: 1=sound, 2=the word "capitals",
+              higher values = a pitch increase (try -k20).
+-k  用以下字母表示大写字母：1 = 声音，2 = 单词“大写”，较高的值 = 音高增加（尝试 -k20）。
+       -l <integer>
+              Line length. If not zero (which is the default), consider  lines
+              less than this length as end-of-clause.
+-l  行长。如果不是零（这是默认值），则将小于此长度的行视为子句末尾。
+       -p <integer>
+              Pitch adjustment, 0 to 99, default is 50.
+       -s <integer>
+              Speed in words per minute, default is 175.
+       -v <voice name>
+              Use  voice file of this name from espeak-ng-data/voices. A vari‐
+              ant can be specified using voice+variant, such as af+m3.
+-v <语音名称> 使用 espeak-ng-data/voices 中此名称的语音文件。可以使用 voice+variant 指定变量，例如 af+m3。
+       -w <wave file name>
+              Write output to this WAV file, rather than speaking it directly.
+-w<波文件名>将输出写入此 WAV 文件，而不是直接说出它。
+       --split=<minutes>
+              Used with -w to split the audio output into  <minutes>  recorded
+              chunks.
+--split= 与 -w 一起使用，将音频输出拆分为录制的块。
+       -b     Input text encoding, 1=UTF8, 2=8 bit, 4=16 bit.
+-b 输入文本编码，1=UTF8,2=8 位，4=16 位。
+       -m     Indicates  that  the text contains SSML (Speech Synthesis Markup
+              Language) tags or other XML tags. Those SSML tags which are sup‐
+              ported are interpreted. Other tags, including HTML, are ignored,
+              except that some HTML tags such as <hr> <h2> and <li>  ensure  a
+              break in the speech.
+-m 指示文本包含 SSML（语音合成标记语言）标记或其他 XML 标记。对那些被支持的 SSML 标记进行解释。其他标记（包括 HTML）将被忽略，但某些 HTML 标记（如 
+ 
+ 和
+）可确保语音中断。
+
+       -x     Write phoneme mnemonics to stdout.
+-x 将音素助记符写入 stdout。
+       -X     Write  phonemes  mnemonics  and  translation trace to stdout. If
+              rules files have been built with --compile=debug,  line  numbers
+              will also be displayed.
+-X 将音素、助记符和翻译跟踪写入 stdout。如果使用 --compile=debug 构建了规则文件，则还会显示行号。
+       -z     No final sentence pause at the end of the text.
+-z 最后一句没有在文本末尾停顿。
+       --stdout
+              Write speech output to stdout.
+--stdout 将语音输出写入 stdout。
+       --compile=voicename
+              Compile  the  pronunciation  rules and dictionary in the current
+              directory. =<voicename< is optional and specifies which language
+              is compiled.
+--compile=voicename 编译当前目录下的发音规则和字典。=
+       --compile-debug=voicename
+              Compile  the  pronunciation  rules and dictionary in the current
+              directory as above, but include line  numbers,  that  get  shown
+              when -X is used.
+--compile-debug=voicename 如上所述在当前目录中编译发音规则和字典，但包括使用 -X 时显示的行号。
+       --ipa  Write  phonemes to stdout using International Phonetic Alphabet.
+              --ipa=1 Use ties, --ipa=2 Use ZWJ, --ipa=3 Separate with _.
+--ipa 使用国际音标将音素写入 stdout。--ipa=1 使用领带，--ipa=2 使用 ZWJ，--ipa=3 用 _ 分隔。
+       --tie=<character>
+              The character to use to join multi-letter  phonemes  in  -x  and
+              --ipa output.
+--tie= 用于连接 -x 和 --ipa 输出中的多字母音素的字符。
+       --path=<path>
+              Specifies the directory containing the espeak-ng-data directory.
+--path=
+       --pho  Write  mbrola  phoneme  data  (.pho) to stdout or to the file in
+              --phonout.
+--pho 将 mbrola 音素数据 （.pho） 写入 stdout 或 --phonout 中的文件。
+       --phonout=<filename>
+              Write output from -x -X commands and mbrola phoneme data to this
+              file.
+--phonout= 将 -x -X 命令和 mbrola 音素数据的输出写入此文件。
+       --punct="<characters>"
+              Speak  the  names  of punctuation characters during speaking. If
+              =<characters> is omitted, all punctuation is spoken.
+--punct=“” 在说话过程中说出标点符号的名称。如果省略 =，则朗读所有标点符号。
+       --sep=<character>
+              The character to separate phonemes from the -x and --ipa output.
+--sep= 将音素与 -x 和 --ipa 输出分开的字符。
+       --voices[=<language code>]
+              Lists the available voices. If =<language code> is present  then
+              only  those  voices  which  are  suitable  for that language are
+              listed.
+--voices[=<语言代码>] 列出可用的语音。如果存在 =，则仅列出适合该语言的语音。
+       --voices=<directory>
+              Lists the voices in the specified subdirectory.
+--voices= 列出指定子目录中的语音。
+EXAMPLES
+       speak-ng "This is a test"
+              Speak the sentence "This is a test" using  the  default  English
+              voice.
+示例 speak-ng “This is a test” 使用默认的英语语音说出“This is a test”这句话。
+       speak-ng -f hello.txt
+              Speak the contents of hello.txt using the default English voice.
+speak-ng -f hello.txt 使用默认的英语语音朗读 hello.txt 的内容。
+       cat hello.txt | speak-ng
+              Speak the contents of hello.txt using the default English voice.
+猫你好.txt |speak-ng 使用默认的英语语音朗读 hello.txt 的内容。
+       speak-ng -x hello
+              Speak  the  word  "hello"  using  the default English voice, and
+              print the phonemes that were spoken.
+speak-ng -x hello 使用默认的英语语音说出单词“hello”，并打印说出的音素。
+       speak-ng -ven-us "[[h@´loU]]"
+              Speak the phonemes "h@´loU" using the American English voice.
+speak-ng -ven-us “[[h@'loU]]” 使用美式英语语音说出音素“h@'loU”。
+       speak-ng --voices
+              List all voices supported by eSpeak.
+speak-ng --voices 列出 eSpeak 支持的所有语音。
+       speak-ng --voices=en
+              List all voices that speak English (en).
+speak-ng --voices=en 列出所有说英语 （en） 的声音。
+
+       speak-ng --voices=mb
+              List all voices using the MBROLA voice synthesizer.
+speak-ng --voices=mb 使用 MBROLA 语音合成器列出所有语音
+。NAME
+       speak-ng - A multi-lingual software speech synthesizer.
+
+SYNOPSIS
+       speak-ng [options] [<words>]
+
+DESCRIPTION
+       speak-ng  is  a software speech synthesizer for English, and some other
+       languages.
+
+OPTIONS
+       -h, --help
+              Show summary of options.
+
+       --version
+              Prints the espeak library version and the location of the espeak
+              voice data.
+
+       -f <text file>
+              Text file to speak.
+
+       --stdin
+              Read text input from stdin instead of a file.
+
+       If  neither  -f  nor --stdin are provided, <words> are spoken, or if no
+       words are provided then text is spoken from stdin a line at a time.
+
+       -q     Quiet, don´t produce any speech (may be useful with -x).
+
+       -a <integer>
+              Amplitude, 0 to 200, default is 100.
+
+       -g <integer>
+              Word gap. Pause between words, units  of  10ms  at  the  default
+              speed.
+
+       -k <integer>
+              Indicate  capital  letters with: 1=sound, 2=the word "capitals",
+              higher values = a pitch increase (try -k20).
+
+       -l <integer>
+              Line length. If not zero (which is the default), consider  lines
+              less than this length as end-of-clause.
+
+       -p <integer>
+              Pitch adjustment, 0 to 99, default is 50.
+
+       -s <integer>
+              Speed in words per minute, default is 175.
+
+       -v <voice name>
+              Use  voice file of this name from espeak-ng-data/voices. A vari‐
+              ant can be specified using voice+variant, such as af+m3.
+
+       -w <wave file name>
+              Write output to this WAV file, rather than speaking it directly.
+
+       --split=<minutes>
+              Used with -w to split the audio output into  <minutes>  recorded
+              chunks.
+
+       -b     Input text encoding, 1=UTF8, 2=8 bit, 4=16 bit.
+
+       -m     Indicates  that  the text contains SSML (Speech Synthesis Markup
+              Language) tags or other XML tags. Those SSML tags which are sup‐
+              ported are interpreted. Other tags, including HTML, are ignored,
+              except that some HTML tags such as <hr> <h2> and <li>  ensure  a
+              break in the speech.
+
+       -x     Write phoneme mnemonics to stdout.
+
+       -X     Write  phonemes  mnemonics  and  translation trace to stdout. If
+              rules files have been built with --compile=debug,  line  numbers
+              will also be displayed.
+
+       -z     No final sentence pause at the end of the text.
+
+       --stdout
+              Write speech output to stdout.
+
+       --compile=voicename
+              Compile  the  pronunciation  rules and dictionary in the current
+              directory. =<voicename< is optional and specifies which language
+              is compiled.
+
+       --compile-debug=voicename
+              Compile  the  pronunciation  rules and dictionary in the current
+              directory as above, but include line  numbers,  that  get  shown
+              when -X is used.
+
+       --ipa  Write  phonemes to stdout using International Phonetic Alphabet.
+              --ipa=1 Use ties, --ipa=2 Use ZWJ, --ipa=3 Separate with _.
+
+       --tie=<character>
+              The character to use to join multi-letter  phonemes  in  -x  and
+              --ipa output.
+
+       --path=<path>
+              Specifies the directory containing the espeak-ng-data directory.
+
+       --pho  Write  mbrola  phoneme  data  (.pho) to stdout or to the file in
+              --phonout.
+
+       --phonout=<filename>
+              Write output from -x -X commands and mbrola phoneme data to this
+              file.
+
+       --punct="<characters>"
+              Speak  the  names  of punctuation characters during speaking. If
+              =<characters> is omitted, all punctuation is spoken.
+
+       --sep=<character>
+              The character to separate phonemes from the -x and --ipa output.
+
+       --voices[=<language code>]
+              Lists the available voices. If =<language code> is present  then
+              only  those  voices  which  are  suitable  for that language are
+              listed.
+
+       --voices=<directory>
+              Lists the voices in the specified subdirectory.
+
+EXAMPLES
+       speak-ng "This is a test"
+              Speak the sentence "This is a test" using  the  default  English
+              voice.
+
+       speak-ng -f hello.txt
+              Speak the contents of hello.txt using the default English voice.
+
+       cat hello.txt | speak-ng
+              Speak the contents of hello.txt using the default English voice.
+
+       speak-ng -x hello
+              Speak  the  word  "hello"  using  the default English voice, and
+              print the phonemes that were spoken.
+
+       speak-ng -ven-us "[[h@´loU]]"
+              Speak the phonemes "h@´loU" using the American English voice.
+
+       speak-ng --voices
+              List all voices supported by eSpeak.
+
+       speak-ng --voices=en
+              List all voices that speak English (en).
+
+       speak-ng --voices=mb
+              List all voices using the MBROLA voice synthesizer.
+
