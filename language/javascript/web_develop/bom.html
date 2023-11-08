@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM操作</title>
+</head>
+
+<body>
+
+    <h2>Browser Object Module </h2>
+
+    <h3 id="h3">这个是标题3</h3>
+
+    <ul>
+        <li>
+            <input type="text" name="username" value="明哥">
+            <button onclick="msg()">弹出 alert 消息</button>
+            <a href="http://www.baidu.com" target="topFrame">打开百度</a>
+        </li>
+    </ul>
+
+    <script>
+
+            function msg() {
+                alert("欢迎您")
+            }
+
+            var person = new Object();
+            person.name = "aming";
+            //     alert(person.name);
+            //
+            var house = ['电视', "洗衣机", "床"];
+            // alert(house[1])
+
+            // var leftPos=window.screenLeft;
+            var leftPos = (typeof window.screenLeft == "number") ? window.screenLeft : window.screenX;
+            var topPos = (typeof window.screenTop == "number") ? window.screenTop : window.screenY;
+            // alert(leftPos)
+            // alert(topPos)
+
+
+            //会被浏览器禁止
+            window.moveTo(0, 0)
+
+            var pageWidth = window.innerWidth,
+                pageHeight = window.innerHeight;
+
+            //    window.innerHeight= pageWidth-100;
+
+            // var num = 5;
+            //延时操作
+            window.setTimeout(
+                function () {
+                    document.getElementById("h3").innerHTML = "标题3改成这个";
+                }, 3000
+            );
+
+            </script>
+
+
+</body>
+
+</html>
