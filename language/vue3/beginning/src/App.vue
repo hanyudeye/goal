@@ -3,7 +3,8 @@
   <!-- <FirstPage></FirstPage> -->
   <!-- <SecondPage></SecondPage> -->
   <!-- <VueTemplate></VueTemplate> -->
-  <KeyBoard></KeyBoard>
+  <!-- <KeyBoard></KeyBoard> -->
+  <ThirdPage></ThirdPage>
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 // import FirstPage from './components/FirstPage.vue'
 // import SecondPage from './components/SecondPage.vue';
 // import VueTemplate from './components/VueTemplate.vue';
-import KeyBoard from './components/KeyBoard.vue';
+// import KeyBoard from './components/KeyBoard.vue';
+import ThirdPage from './components/ThirdPage.vue';
 
 export default {
   name: 'App',
@@ -19,8 +21,9 @@ export default {
     // FirstPage,
     // SecondPage,
     // VueTemplate
-    KeyBoard
-  }
+    // KeyBoard,
+    ThirdPage
+}
 }
 </script>
 
