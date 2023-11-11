@@ -106,7 +106,7 @@
   position: sticky;
   top: 0;
   z-index: 2;
-  box-shadow: 1px 1px 8px #e0ddf;
+  box-shadow: 1px 1px 8px #e0ddff;
   height: 50px;
   #menu {
     * {
@@ -191,9 +191,10 @@
   .footer {
     left: 0;
   }
-  /deep/ .el-dialog {
-    width: 95%;
-  }
+
+  // /deep/ .el-dialog {
+  //   width: 95%;
+  // }
 }
 
 @media screen and (min-width: 481px) {
