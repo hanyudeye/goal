@@ -11,3 +11,4 @@ arguments
 thinkphp/
 vue2/
 *.pyc
+vendor/
