@@ -410,7 +410,7 @@ lsattr 显示特殊的属性
 | cdrecord --scanbus | 扫描总线以识别scsi通道 |
 | dd if=/dev/hdc | md5sum | 校验一个设备的md5sum编码，例如一张 CD |
 
-## 网络 - （以太网和WIFI无线\*\*）
+## 网络 - （以太网和WIFI无线）
 
 | 命令 | 说明 |
 | --- | --- |
@@ -525,90 +525,3 @@ smbclient -L ip_addr/hostname show remote shares of a windows host
 smbget -Rr smb://ip_addr/share like wget can download files from a host windows via smb 
 mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share mount a windows network share
 ```
-
-最后编辑于
-
-：2018.12.21 18:49:34
-
-更多精彩内容，就在简书APP
-
-![](https://upload.jianshu.io/images/js-qrc.png)
-
-"如果您绝对文章对您有用。那就给作者赞赏1分。"
-
-还没有人赞赏，支持一下
-
-[![  ](https://upload.jianshu.io/users/upload_avatars/14653704/ebd39568-6073-4190-9092-e99a645a9562.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/100/h/100/format/webp)](https://www.jianshu.com/u/9d6920d486e7)
-
-总资产83共写了51.0W字获得1,148个赞共331个粉丝
-
--   序言：七十年代末，一起剥皮案震惊了整个滨河市，随后出现的几起案子，更是在滨河造成了极大的恐慌，老刑警刘岩，带你破解...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/15878160/783c64db-45e5-48d7-82e4-95736f50533e.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)沈念sama](https://www.jianshu.com/u/dcd395522934)阅读 111,849评论 1赞 224
-    
--   序言：滨河连续发生了三起死亡事件，死亡现场离奇诡异，居然都是意外死亡，警方通过查阅死者的电脑和手机，发现死者居然都...
-    
--   文/潘晓璐 我一进店门，熙熙楼的掌柜王于贵愁眉苦脸地迎上来，“玉大人，你说我怎么就摊上这事。” “怎么了？”我有些...
-    
--   文/不坏的土叔 我叫张陵，是天一观的道长。 经常有香客问我，道长，这世上最难降的妖魔是什么？ 我笑而不...
-    
--   正文 为了忘掉前任，我火速办了婚礼，结果婚礼上，老公的妹妹穿的比我还像新娘。我一直安慰自己，他们只是感情好，可当我...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)茶点故事](https://www.jianshu.com/u/0f438ff0a55f)阅读 39,417评论 0赞 198
-    
--   文/花漫 我一把揭开白布。 她就那样静静地躺着，像睡着了一般。 火红的嫁衣衬着肌肤如雪。 梳的纹丝不乱的头发上，一...
-    
--   那天，我揣着相机与录音，去河边找鬼。 笑死，一个胖子当着我的面吹牛，可吹牛的内容都是我干的。 我是一名探鬼主播，决...
-    
--   文/苍兰香墨 我猛地睁开眼，长吁一口气：“原来是场噩梦啊……” “哼！你这毒妇竟也来了？” 一声冷哼从身侧响起，我...
-    
--   想象着我的养父在大火中拼命挣扎，窒息，最后皮肤化为焦炭。我心中就已经是抑制不住地欢快，这就叫做以其人之道，还治其人...
-    
--   序言：老挝万荣一对情侣失踪，失踪者是张志新（化名）和其女友刘颖，没想到半个月后，有当地人在树林里发现了一具尸体，经...
-    
--   正文 独居荒郊野岭守林人离奇死亡，尸身上长有42处带血的脓包…… 初始之章·张勋 以下内容为张勋视角 年9月15日...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)茶点故事](https://www.jianshu.com/u/0f438ff0a55f)阅读 24,088评论 1赞 159
-    
--   正文 我和宋清朗相恋三年，在试婚纱的时候发现自己被绿了。 大学时的朋友给我发了我未婚夫和他白月光在一起吃饭的照片。...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)茶点故事](https://www.jianshu.com/u/0f438ff0a55f)阅读 25,384评论 1赞 170
-    
--   白月光回国，霸总把我这个替身辞退。还一脸阴沉的警告我。\[不要出现在思思面前， 不然我有一百种方法让你生不如死。\]我...
-    
--   序言：一个原本活蹦乱跳的男人离奇死亡，死状恐怖，灵堂内的尸体忽然破棺而出，到底是诈尸还是另有隐情，我是刑警宁泽，带...
-    
--   正文 年R本政府宣布，位于F岛的核电站，受9级特大地震影响，放射性物质发生泄漏。R本人自食恶果不足惜，却给世界环境...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)茶点故事](https://www.jianshu.com/u/0f438ff0a55f)阅读 26,106评论 3赞 167
-    
--   文/蒙蒙 一、第九天 我趴在偏房一处隐蔽的房顶上张望。 院中可真热闹，春花似锦、人声如沸。这庄子的主人今日做“春日...
-    
--   文/苍兰香墨 我抬头看了看天上的太阳。三九已至，却和暖如春，着一层夹袄步出监牢的瞬间，已是汗流浃背。 一阵脚步声响...
-    
--   我被黑心中介骗来泰国打工， 没想到刚下飞机就差点儿被人妖公主榨干…… 1. 我叫王不留，地道东北人。 一个月前我还...
-    
--   正文 我出身青楼，却偏偏与公主长得像，于是被迫代替她去往敌国和亲。 传闻我的和亲对象是个残疾皇子，可洞房花烛夜当晚...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/4790772/388e473c-fe2f-40e0-9301-e357ae8f1b41.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)茶点故事](https://www.jianshu.com/u/0f438ff0a55f)阅读 27,649评论 2赞 179
-    
-
-### 被以下专题收入，发现更多相似内容
-
-### 推荐阅读[更多精彩内容](https://www.jianshu.com/)
-
--   初学Linux，记录资料，以备留存，亲手测试了一部分，有的正确，不正确的也改了，没有全部测试，如有误，望大神们不吝...
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/2182065/a6122e8428cc?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)世外大帝](https://www.jianshu.com/u/6183038717af)阅读 5,421评论 1赞 32
-    
--   Linux常用命令大全（非常全！！！） - 鸿燕藏锋 - 博客园 系统信息 arch 显示机器的处理器架构(1) ...
-    
--   系统信息 arch 显示机器的处理器架构(1) uname -m 显示机器的处理器架构(2) uname -r 显...
-    
-    [![](https://cdn2.jianshu.io/assets/default_avatar/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg)鲨宇](https://www.jianshu.com/u/b8c226001936)阅读 255评论 0赞 0
-    
--   清明节后的一天，小尹打电话问我住哪儿晚上方不方便，我道:媳妇在老家呢，就我一个人住。小尹道:那我晚上找你聚一...
-    
--   光越过秋天篱笆和青苹果 你刚好在我视野像雪我身后是深浅不一的夜 请将准心移到我的额骨让我畏惧。释然你已经看透了我
-    
-    [![](https://upload.jianshu.io/users/upload_avatars/8012648/3eff677a-ae70-4028-95b7-995cb289dd79.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/48/h/48/format/webp)惊蛰夕](https://www.jianshu.com/u/526fec1b134d)阅读 614评论 14赞 8
