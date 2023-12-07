@@ -11,7 +11,7 @@
   </div>
 
   <div class="form">
-    姓名: <input type="text" name=""  v-model="input_value">
+    姓名: <input type="text" name="" v-model="input_value">
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
     return {
       link: '<a href="http://a.com">链接</a>',
       key: 'KEY',
-      input_value:"小李"
+      input_value: "小李"
     }
   }, methods: {
     a: function () { alert("hello") },
