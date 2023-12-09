@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="iconfont.css">
+
+    <!-- 这下面使用 symbol 的方式 -->
+    <script src="./iconfont.js"></script>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+
+    <!-- 这下面使用 symbol 的方式 end -->
+</head>
+
+<body>
+
+    <h1>font class</h1>
+    使用 font class 导入字体，但这个不是未来，这个只能单色图标
+
+    <span class="icon iconfont icon-hahaha">这里是字体图标</span>
+
+
+
+    <h1>Symbol</h1>
+    这个是 多色 的 ，是 Symbol 引用的方式
+
+
+    第一步：引入项目下面生成的 symbol 代码：
+    <code>
+<script src="./iconfont.js"></script>
+</code>
+    第二步：加入通用 CSS 代码（引入一次就行）：
+    <code>
+<style>
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
+</code>
+    第三步：挑选相应图标并获取类名，应用于页面：
+    <code>
+<svg class="icon" aria-hidden="true">
+  <use xlink:href="#icon-xxx"></use>
+</svg>
+</code>
+
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-hahaha"></use>
+    </svg>
+    这里是字体图标
+
+</body>
+
+</html>
