@@ -8,6 +8,7 @@ categories: ['']
 
 
 ## 使用
+
 Usage:
   hugo [flags]
   hugo [command]
@@ -88,6 +89,22 @@ Flags:
 
 Use "hugo [command] --help" for more information about a command.
 
+## 图片路径
+
+1. 绝对路径 /static/images/a.jpg
+![](/images/a.jpg)
+
+2. 相对路径 /content/post/demo/a.jpg
+在文件 demo.md 中
+![](a.jpg)
+> 文件名要与图片目录名字一致
+
+pasteImage配置
+```json
+{
+   "pasteImage.path": "${projectRoot}/static/images/",
+}
+```
 ## hugo theme
 帮助文档链接 https://hugo.aiaide.com/
 
