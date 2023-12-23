@@ -5,9 +5,9 @@ JavaScript速查表
 
 - 译制：[HaleNing](https://github.com/HaleNing)
 
-
-
 ## 目录
+- [JavaScript速查表](#javascript速查表)
+  - [目录](#目录)
   - [基础知识](#基础知识)
     - [类型](#类型)
     - [引用](#引用)
