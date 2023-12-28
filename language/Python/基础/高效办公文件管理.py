@@ -6,3 +6,4 @@ zidian=dict([(1,"lisi"),(2,"lishi"),(3,"网无")])
 
 zidian2={1:"he",2:"gg","he":"32"}
 print(zidian2)
+
