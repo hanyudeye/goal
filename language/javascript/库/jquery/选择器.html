@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+</head>
+
+<body>
+    <div class="fangzi">
+        <div class="yangtan">阳台</div>
+        <div class="weishengjian">卫生间</div>
+        <div class="chufang">厨房</div>
+        <div class="woshi">
+            <span class="chuanglian">
+                窗帘
+            </span>
+            <ul>
+                <li>卧室</li>
+                <li>卧室</li>
+            </ul>
+        </div>
+        <div class="shufang">
+            书房
+        </div>
+        <div class="boli">
+            <ul>
+                <li>玻璃</li>
+                <li>玻璃</li>
+                <li>玻璃</li>
+                <li>玻璃</li>
+                <li>玻璃</li>
+            </ul>
+        </div>
+        <div class="men">
+            <ul>
+                <li>门</li>
+                <li>门</li>
+                <li>门</li>
+            </ul>
+        </div>
+
+        <form action="">
+            <div class="form-group">
+              <label for="">姓名</label>
+              <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+              <small id="helpId" class="text-muted">Help text</small>
+            </div>
+            <div class="form-grounp">
+                <button>提交</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script>
+        $(".fangzi .yangtan,.shufang").css("background-color", "yellow");
+
+        $("li:first-child").css("color", "red");
+
+        $("div span").css("background-color", "green");
+
+        $(":button").css("background","red");
+    </script>
+</body>
+
+</html>

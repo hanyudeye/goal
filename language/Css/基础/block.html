@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>方块</title>
+    <style>
+        body {
+            background-color: #eee;
+            flex-direction: column;
+        }
+
+        .block {
+            background-color: #FFF;
+            border-radius: 5px;
+            width: 50%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .num {
+            color: aqua;
+            font-size: 2em;
+        }
+
+        .num div {
+            color: #eee;
+            font-size: 0.5em;
+            padding-top: 10px;
+        }
+
+        .外边 {
+            width: 300px;
+            height: 300px;
+            background-color: #FFF;
+        }
+
+        .垂直居中 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="block">
+        <div class="num">521
+            <div>同比镇长</div>
+        </div>
+    </div>
+
+
+    <div class="外边">
+        <div class="垂直居中">垂直居中</div>
+    </div>
+
+
+</body>
+
+</html>
