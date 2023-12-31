@@ -5,6 +5,10 @@
 `npm i express --save` or`yarn add -D express``(-D saves it as a dev dependency)`
 `yarn add -D @types/express``(Installing for TS)`
 
+// nodemon is a tool that helps you develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected. 
+// nodemon node monitor (node 监视器): 可以自动重启服务器
+// nodemon app.js 
+
 const express = require("express"); // Importing the express library.
 const app = express(); // Intializing the imported express application
 
@@ -196,6 +200,11 @@ res.send('GET')`                                   `// Outputs all the layer, me
 
 `console.dir(req.signedCookies.user)`              `// Logs all the signed cookies sent by the request`
 
+
+// 监听端口
+app.listen(3000,()=>{
+    console.log('Server running at http://localhost::3000/')
+})
 
 ```Response```
 ``Methods``
