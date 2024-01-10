@@ -1,6 +1,9 @@
 <!--index.wxml-->
 <view class="container">
   <view class="userinfo">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+     <h2>你好</h2> 
+    </view>
     <block wx:if="{{canIUseOpenData}}">
       <view class="userinfo-avatar" bindtap="bindViewTap">
         <open-data type="userAvatarUrl"></open-data>
