@@ -1,10 +1,10 @@
 hello
-hello
-hello
-hello
-hello
-hello
-hello
+好好学习
+好好学习
+好好学习
+好好学习
+好好学习
+好好学t
 好好学习
 好好学习
 好好学习
@@ -13,9 +13,13 @@ hello
 好好学习
 好好学习
 好好学习
-好好学习
-好好学习
-好好学习
-好好学习
-好好学习
-好好学习
+
+## 变体
+
+> hello
+
+## good
+
+[he](http://baidu.com)
+
+
