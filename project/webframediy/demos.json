@@ -1,0 +1,12 @@
+[
+    {
+        "desc":"如何正确的洗头",
+        "url":"how-to-washing-hair",
+        "tags":"washing hair",
+        "support":{
+            "live":"opera chrome",
+            "nightly":"firefox"
+        },
+        "test":"navigator.getUserMedia !== undefined"
+    }
+]
