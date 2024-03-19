@@ -1,6 +1,13 @@
 
 需求 - 想象 - 创建 - 学习
 
+## todo
+
+1、计算机相关专业，1年以上Python后台开发经验:
+2、精通Python，掌握numpy，pandas，Matplotlib 等数据处理方面常用的第三方python库;
+3、熟练掌握Django框架以及RESTFUL API开发;
+4、熟悉Linux操作系统，熟悉Shel脚本开发;
+5、熟悉前端开发，有基于VUE项目开发经验优先，
 
 # 需求
 
