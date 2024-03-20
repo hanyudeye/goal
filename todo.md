@@ -9,6 +9,11 @@
 4、熟悉Linux操作系统，熟悉Shel脚本开发;
 5、熟悉前端开发，有基于VUE项目开发经验优先，
 
+javascript 书籍
+
+JavaScript权威指南（原书第7版）  : 用来学习语言
+JavaScript高级程序设计（第3版） : 用来学习 DOM
+
 # 需求
 
 ## 程序员需求工具
