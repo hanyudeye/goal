@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import HeaderTitle from './components/HeaderTitle.vue'
+// import HeaderTitle from './components/HeaderTitle.vue'
+import TodoList from './components/TodoList.vue'
 </script>
 
 <template>
 
-  <HeaderTitle></HeaderTitle>
-  <h2>nice to meet you </h2>
+  <!-- <HeaderTitle></HeaderTitle> -->
+
+  <h2>创建TODO List </h2>
+  <TodoList></TodoList>
 
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
