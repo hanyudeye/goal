@@ -1,3 +1,5 @@
+安装插件
+
 "============= File Management =============
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " 模糊搜索
 Plug 'junegunn/fzf.vim'                             " 模糊搜索

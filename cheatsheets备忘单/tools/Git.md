@@ -1,17 +1,20 @@
 # Git
 <!-- GFM-TOC -->
-* [Git](#git)
-    * [集中式与分布式](#集中式与分布式)
-    * [中心服务器](#中心服务器)
-    * [工作流](#工作流)
-    * [分支实现](#分支实现)
-    * [冲突](#冲突)
-    * [Fast forward](#fast-forward)
-    * [储藏（Stashing）](#储藏stashing)
-    * [SSH 传输设置](#ssh-传输设置)
-    * [.gitignore 文件](#gitignore-文件)
-    * [Git 命令一览](#git-命令一览)
-    * [参考资料](#参考资料)
+- [Git](#git)
+  - [集中式与分布式](#集中式与分布式)
+  - [中心服务器](#中心服务器)
+  - [工作流](#工作流)
+  - [分支实现](#分支实现)
+  - [冲突](#冲突)
+  - [Fast forward](#fast-forward)
+  - [储藏（Stashing）](#储藏stashing)
+  - [SSH 传输设置](#ssh-传输设置)
+  - [.gitignore 文件](#gitignore-文件)
+  - [Git 命令一览](#git-命令一览)
+  - [参考资料](#参考资料)
+  - [查看远程仓库](#查看远程仓库)
+  - [查看最近修改日期](#查看最近修改日期)
+  - [git pull ，出现 refusing to merge unrelated histories ，怎么处理](#git-pull-出现-refusing-to-merge-unrelated-histories-怎么处理)
 <!-- GFM-TOC -->
 
 
@@ -151,3 +154,35 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 - [图解 Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
 - [廖雪峰 : Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [Learn Git Branching](https://learngitbranching.js.org/)
+
+## 查看远程仓库
+
+``` sh
+git remote -v
+```
+
+## 查看最近修改日期
+
+```sh   
+git log -1   --format="%ad"  -- <file_path>
+```
+
+git log -1  显示最近一次的提交信息
+--format="%ad" 会指定日期的格式。您可以根据需要调整日期显示的格式。
+<file_path> 是您想要查看修改日期的文件路径。
+
+
+## git pull ，出现 refusing to merge unrelated histories ，怎么处理
+
+当在Git中使用git pull命令时出现 "refusing to merge unrelated histories" 错误时，这通常是因为两个仓库（本地仓库和远程仓库）的历史没有共同的祖先，Git 不知道如何合并它们。
+
+您可以通过添加 --allow-unrelated-histories 选项来允许合并不相关的历史。下面是处理这个问题的方法：
+
+git pull origin master --allow-unrelated-histories
+在这个命令中：
+
+origin 是远程仓库的名称。
+master 是远程分支的名称。根据您的情况，可能会有不同的分支名。
+通过添加 --allow-unrelated-histories 选项，Git 将允许合并两个不相关历史的仓库。
+
+执行上述命令后，Git 将尝试合并不相关的历史。请注意，合并不相关的历史可能会导致一些混乱，因此在执行此操作之前，请确保您了解这种合并可能带来的潜在影响。

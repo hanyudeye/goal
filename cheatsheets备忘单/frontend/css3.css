@@ -681,3 +681,20 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 
+## 阴影
+``` css
+box-shadow: 水平偏移量 垂直偏移量 模糊半径 扩展半径 颜色;
+```
+
+旋转延时代码
+
+```css
+.rotated-element {
+    transform: rotate(0deg);
+    transition: transform 0.5s ease; /* 添加延时效果，0.5秒的过渡时间，使用 ease 缓动函数 */
+}
+
+.rotated-element:hover {
+    transform: rotate(45deg);
+}
+```

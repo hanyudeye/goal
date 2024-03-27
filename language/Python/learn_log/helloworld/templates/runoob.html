@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奔跑吧，菜鸟</title>
+</head>
+
+<body>
+    <h1>
+        这是一个 {{title}}
+    </h1>
+    <div>
+        <!-- 这里是模板中的参数运算，可以引入函数，与PHP中模板引擎相似 -->
+        这个title(标题的) 长度是 {{title|length}}
+    </div>
+
+    <ul>
+        <!-- 这里注意列表的语法，不再是用[ ] 括号引用了 ,字典也一样，用 . （点号）引入-->
+        <li>{{list.0}}</li>
+        <li>{{list.1}}</li>
+        <li>{{list.2}}</li>
+    </ul>
+
+    <h2>
+        if ,else 标签的使用
+    </h2>
+    通过判断，这下面<em>可能会</em>显示 ,哈哈哈 3个字
+
+    {% if 3 > 2 %}
+    <h1>哈哈哈</h1>
+    {% endif %}
+
+<!-- if  标签接受 and ， or 或者 not 关键字来对多个变量做判断 ，或者对变量取反（ not )， -->
+<!-- %if num > 90 and num <= 100 %} -->
+
+<h2>插入个图片，这个 static/是静态目录的一个别名</h2>
+<img src="/static/images/5.png" alt="这是一个图片">
+
+<h2>插入另一个图片</h2>
+
+{% load static %}
+<img src="{% static 'images/5.png' %}" alt="感觉还不如上面">
+
+</body>
+
+</html>

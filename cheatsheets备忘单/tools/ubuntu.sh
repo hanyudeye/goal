@@ -4,6 +4,11 @@
 
 scp /path/to/file user@server:/path/to/destination # Copy file from local to server
 
+scp /home/zhao/data/test.txt zw@10.150.69.247: /C:/Users/zw/Desktop/summary
+或
+scp /home/zhao/data/test.txt zw@10.150.69.247: /C:/Users/zw/Desktop/summary/tt.txt
+
+
 df -h # Check the amount of free space
 
 sudo ufw status # Check status
