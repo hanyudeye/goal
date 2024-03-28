@@ -2,7 +2,9 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 // import HeaderTitle from './components/HeaderTitle.vue'
+// 组件局部注册
 import TodoList from './components/TodoList.vue'
+
 </script>
 
 <template>
@@ -13,6 +15,7 @@ import TodoList from './components/TodoList.vue'
   <TodoList></TodoList>
 
   <header>
+    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">

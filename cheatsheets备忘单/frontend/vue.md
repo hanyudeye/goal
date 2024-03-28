@@ -6,6 +6,7 @@
  * ******************************************************************************************* */
 
 
+```js
 // Configure whether to allow vue-devtools inspection
 Vue.config.devtools = true
 
@@ -797,3 +798,35 @@ vm.$destroy()
 
 // <!-- Used for dynamic components and to work around limitations of in-DOM templates. -->
 // <component :is="currentView"></component>
+```
+
+## 组件之间通信
+
+在Vue.js中，组件之间通信是一个非常常见的需求。以下是几种常用的Vue组件之间通信的方式：
+
+1. **Props/Events（属性/事件）**:
+   - **Props**: 父组件通过props向子组件传递数据。
+   - **Events**: 子组件通过触发事件，向父组件传递消息。
+
+2. **Vuex**:
+   - Vuex是Vue.js官方提供的状态管理库，用于管理应用中的共享状态。通过Vuex，不同组件可以共享状态并实现通信。
+
+3. **$emit / $on**:
+   - Vue实例提供了`$emit`和`$on`方法，可以用于自定义事件的触发和监听。
+
+4. **$refs**:
+   - 通过`ref`属性可以在父组件中引用子组件，然后通过`$refs`访问子组件的属性和方法。
+
+5. **Provide/Inject**:
+   - 父组件通过`provide`提供数据，子组件通过`inject`注入数据，实现跨层级组件之间的通信。
+
+6. **Event Bus**:
+   - 可以使用一个空的Vue实例作为事件总线，通过它来触发和监听事件，实现组件之间的通信。
+
+7. **$parent / $children**:
+   - 可以通过`$parent`和`$children`访问父组件和子组件实例，从而实现通信。
+
+8. **$attrs / $listeners**:
+   - 在父组件中可以通过`$attrs`访问子组件的所有属性，通过`$listeners`访问子组件的所有事件监听器。
+
+这些是Vue.js中常用的组件之间通信方式。根据具体的场景和需求，选择合适的方式来实现组件之间的通信。
