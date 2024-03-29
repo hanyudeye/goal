@@ -1,11 +1,26 @@
 ## todo
 
+- 1. 使用 vim 用来写文档，可以快速收起，安装 vimrc 插件更方便编辑
+- 2. 打开图片缩放功能
+- :Git commit
+
+## 创业
+- 2. 创业是寻找存在的问题，提出解决方法
+- 获得创业想法的方法不是去想创业想法。而是寻找问题，最好是你自己的问题。
+- 创业要坚持，是马拉松而不是短跑，要花10年精力
+- 雇佣比你好的人，并信任他们
+
+
 https://github.com/SD-Gaming/Vue3-Todo-List-AddName
+
+
+
+
 
 <!-- 需求 - 想象 - 创建 - 学习 -->
 <!-- 1、计算机相关专业，1年以上Python后台开发经验: -->
-2、精通Python，掌握numpy，pandas，Matplotlib 等数据处理方面常用的第三方python库;
-3、熟练掌握Django框架以及RESTFUL API开发;
+<!-- 2、精通Python，掌握numpy，pandas，Matplotlib 等数据处理方面常用的第三方python库; -->
+<!-- 3、熟练掌握Django框架以及RESTFUL API开发; -->
 <!-- 4、熟悉Linux操作系统，熟悉Shel脚本开发; -->
 5、熟悉前端开发，有基于VUE项目开发经验优先，
 

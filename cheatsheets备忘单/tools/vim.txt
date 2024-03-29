@@ -1,4 +1,10 @@
-安装插件
+
+## 纵向分割窗口
+
+vsplit FILENAME
+
+
+## 安装插件
 
 "============= File Management =============
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " 模糊搜索
