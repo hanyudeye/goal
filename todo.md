@@ -10,11 +10,7 @@
 - 创业要坚持，是马拉松而不是短跑，要花10年精力
 - 雇佣比你好的人，并信任他们
 
-
 https://github.com/SD-Gaming/Vue3-Todo-List-AddName
-
-
-
 
 
 <!-- 需求 - 想象 - 创建 - 学习 -->
