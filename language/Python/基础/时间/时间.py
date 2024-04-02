@@ -19,4 +19,4 @@ import datetime
 # 直接格式化
 print(datetime.datetime.now())
 
-
+print(datetime.datetime.now())
