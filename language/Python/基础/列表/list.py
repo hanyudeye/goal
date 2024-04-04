@@ -4,9 +4,16 @@ l=list(range(1,10))
 
 l.append("nihao")
 l.remove(3)
+l.pop()
+
 print(l)
 
-hair="black","brown","blonde","red"
+hair=["black","brown","blonde","red"]
+print(sorted(hair,key=len))
+# 根据最后一个字母
+print(sorted(hair,key=lambda x: x[-1]))
+# print(hair*3)
+
 # print(hair[2][0])
 # print(hair[-3:])
 
