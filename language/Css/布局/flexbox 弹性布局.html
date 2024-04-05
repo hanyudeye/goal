@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹性布局</title>
+    <style>
+        body,
+        div {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: center;
+            /* 水平居中 */
+            align-items: center;
+            /* 垂直居中 */
+            height: 200px;
+            border: 5px solid #ccc;
+        }
+
+        .row1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+
+        .container2 {
+            display: flex;
+            justify-content: space-between;
+            /* 使得子元素平均分布 */
+            height: 200px;
+            border: 5px solid #ccc;
+        }
+
+        .container2 .item {
+            flex: 1;
+            /* 将所有子元素的宽度设置为相等 */
+            border: 2px solid green;
+        }
+
+        .container3 {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            /* 使得子元素平均分布 */
+            height: 200px;
+            border: 5px solid #ccc;
+        }
+
+        .container3 .item {
+            flex: 1 0 200px;
+            /* 将所有子元素的宽度设置为相等 */
+            border: 2px solid green;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="row1">
+            水平、垂直 居中布局
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="item">等宽多列布局</div>
+        <div class="item">等宽多列布局</div>
+        <div class="item">等宽多列布局 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere neque a
+            officiis eos inventore aspernatur eum dolorem libero ab voluptas, consequatur temporibus voluptatem debitis
+            fuga fugit unde odio dolores!</div>
+    </div>
+
+
+    <div>
+        在Flexbox布局中，当窗口变小时，内容往下排列的情况通常是由于容器的 flex-wrap 属性设置为 wrap，以及子元素的 flex-basis 属性设置了固定的尺寸
+    </div>
+
+    <div class="container3">
+        <div class="item">等宽多列布局</div>
+        <div class="item">等宽多列布局 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere neque a
+            officiis eos inventore aspernatur eum dolorem libero ab voluptas, consequatur temporibus voluptatem debitis
+            fuga fugit unde odio dolores!</div>
+ 
+        <div class="item">等宽多列布局</div>
+        <div class="item">等宽多列布局 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere neque a
+            officiis eos inventore aspernatur eum dolorem libero ab voluptas, consequatur temporibus voluptatem debitis
+            fuga fugit unde odio dolores!</div>
+ 
+    </div>
+</body>
+
+</html>

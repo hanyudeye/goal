@@ -380,3 +380,21 @@ function_name()
 * We need not to specify the return type of the function.
 * Functions by default return `None` 
 * We can return any datatype.
+
+
+## 虚拟环境
+- 先创建项目根目录，然后转到根目录
+- 创建  python -m venv  My_env
+- 激活  source My_env/bin/activate (windows 是  My_env\Scripts\activate)
+- 关闭虚拟环境  deactivate
+
+
+激活后，可以安装项目了 Django 
+pip install  Django==4.2
+
+Keep in mind that Django will only be available when the virtual environment is active.
+
+环境激活后才有效  ,这什么意思
+
+运行
+python .\manage.py runserver 127.0.0.1:8000

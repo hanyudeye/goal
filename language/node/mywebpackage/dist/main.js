@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=e=>11===e.length;console.log(!1),console.log(e("1231334")),console.log("hhhhhh"),document.querySelector(".btn").addEventListener("click",(()=>{const o=document.querySelector("#phone").value,l=document.querySelector("[name=code]").value;e(o)?e(l)?console.log("提交到服务器"):console.log("验证码长度必要要 6位"):console.log("手机号长度必要要 11位")}))})();
