@@ -8,6 +8,8 @@ prices={
     "pork":15
 }
 
+print(prices)
+# 命名数组重新命名
 print(list(zip(prices.values(),prices.keys())))
 print(max(zip(prices.values(),prices.keys())))
 print(min(zip(prices.values(),prices.keys())))
