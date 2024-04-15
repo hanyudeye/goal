@@ -1,4 +1,21 @@
-## Linux常用命令大全（非常全！！！）
+---
+layout: default
+toc: false
+title: Linux常用命令
+date:  2024-04-11T07:49:28+08:00
+categories: ['linux']
+---
+
+
+在一个空旷的大草原，怎么搭建起一个适宜居住的环境呢？这些实用的Linux软件能帮到您。
+
+<!--more-->
+
+## 超赞的 Linux 软件
+
+
+
+## 网络
 
 netstat命令各个参数说明如下：
 

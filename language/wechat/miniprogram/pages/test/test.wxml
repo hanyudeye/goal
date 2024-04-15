@@ -1,7 +1,0 @@
-<!-- index.wxml -->
-<view class="container">
-    <view>test,你好</view>
-    <view class="" hover-class="none" hover-stop-propagation="false">
-       公告 
-    </view>
-</view>
