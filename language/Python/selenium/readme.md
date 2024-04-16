@@ -1,2 +1,0 @@
-- 安装库  pip install selenium
-- chromeDriver 下载地址   https://chromedriver.com/
