@@ -1,1 +1,0 @@
-这是一个 DIY 的  小的  php web  框架，入口 在  index.php 文件中
