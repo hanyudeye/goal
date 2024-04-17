@@ -1,0 +1,42 @@
+* python
+
+** 统计字数
+
+   #+begin_src python
+     txt="hello, world. nice to meet you ."
+     # split 指定一个分隔符分割子字符串，并存储为 列表
+     words=txt.split()
+     print(len(words))
+   #+end_src
+
+** 统计文本 字数
+
+  #+begin_src python
+    from pathlib import Path
+    
+    filename="python.org"
+    
+    path=Path(filename)
+    
+    try:
+        contents=path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        pass
+    else:
+        words=contents.split()
+        print(len(words))
+#+end_src
+
+** base64编码
+
+   #+begin_src python
+     import base64
+     
+     content="hello"
+     b64=base64.b64encode(content.encode())
+     print(b64)
+     
+     print(base64.b64decode(b64).decode())
+     
+#+end_src
+
