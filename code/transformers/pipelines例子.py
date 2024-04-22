@@ -11,7 +11,6 @@ model = AutoModel.from_pretrained(path)
 # classifier=pipeline("sentiment-analysis",model=model,tokenizer=tokenizer)  #情感分析
 # classifier("I've been waiting for you a whole morning")
 
-
 # 定义一个分类任务的 pipeline
 classifier = pipeline("text-classification", model=model, tokenizer=tokenizer)
 
