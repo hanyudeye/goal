@@ -1,0 +1,174 @@
+TodoMVC 是一个展示如何使用不同 JavaScript 框架和库构建 Todo 应用程序的项目。这个项目旨在帮助开发人员了解不同框架和库之间的区别，并选择最适合自己需求的工具。
+
+**功能**：
+
+TodoMVC 的功能很简单，主要包括以下几点：
+
+1. **添加任务**：用户可以添加新的待办任务。
+2. **标记任务完成**：用户可以标记任务为已完成。
+3. **删除任务**：用户可以删除不再需要的任务。
+4. **显示任务列表**：用户可以查看待办任务列表，包括已完成和未完成的任务。
+5. **筛选任务**：用户可以按照任务的完成状态进行筛选，如查看全部、已完成或未完成的任务。
+
+**实现原理**：
+
+TodoMVC 的实现原理基本一致，无论你选择使用哪种框架或库，都需要以下几个核心组件：
+
+1. **任务对象 (Task Object)**：每个任务都是一个对象，包含任务的内容和状态（已完成或未完成）。
+2. **任务列表 (Task List)**：任务列表用于存储所有的任务对象，并提供添加、删除和筛选任务的功能。
+3. **用户界面 (User Interface)**：用户界面用于与用户交互，包括显示任务列表、添加新任务、标记任务完成等功能。
+
+**搭建实现流程**：
+
+以下是使用 HTML、CSS 和 JavaScript 搭建 TodoMVC 的简单实现流程：
+
+**1. 创建 HTML 结构**：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoMVC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todoapp">
+        <header class="header">
+            <h1>TodoMVC</h1>
+            <input id="new-todo" class="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section class="main">
+            <ul class="todo-list" id="todo-list"></ul>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+```
+
+**2. 创建 CSS 样式**（style.css）：
+
+```css
+body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    margin: 0;
+    padding: 0;
+}
+
+.todoapp {
+    background: #fff;
+    margin: 130px 0 40px 0;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 20px 20px 20px 40px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.new-todo {
+    padding: 16px 16px 16px 60px;
+    border: none;
+    background: rgba(0, 0, 0, 0.003);
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+    position: relative;
+    margin: 0;
+    width: 100%;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.4em;
+    color: inherit;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.todo-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+```
+
+**3. 创建 JavaScript 逻辑**（app.js）：
+
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+    const newTodoInput = document.getElementById('new-todo');
+    const todoList = document.getElementById('todo-list');
+
+    let todos = [];
+
+    // 添加新任务
+    function addTodo() {
+        const todoText = newTodoInput.value.trim();
+        if (todoText !== '') {
+            const todo = {
+                id: Date.now(),
+                text: todoText,
+                completed: false
+            };
+            todos.push(todo);
+            renderTodoList();
+            newTodoInput.value = '';
+        }
+    }
+
+    // 删除任务
+    function deleteTodo(id) {
+        todos = todos.filter(todo => todo.id !== id);
+        renderTodoList();
+    }
+
+    // 标记任务完成
+    function toggleTodoStatus(id) {
+        todos = todos.map(todo => {
+            if (todo.id === id) {
+                return {
+                    ...todo,
+                    completed: !todo.completed
+                };
+            }
+            return todo;
+        });
+        renderTodoList();
+    }
+
+    // 渲染任务列表
+    function renderTodoList() {
+        todoList.innerHTML = '';
+        todos.forEach(todo => {
+            const todoItem = document.createElement('li');
+            todoItem.innerHTML = `
+                <div class="view">
+                    <input class="toggle" type="checkbox" ${todo.completed ? 'checked' : ''} onchange="toggleTodoStatus(${todo.id})">
+                    <label>${todo.text}</label>
+                    <button class="destroy" onclick="deleteTodo(${todo.id})">X</button>
+                </div>
+            `;
+            if (todo.completed) {
+                todoItem.classList.add('completed');
+            }
+            todoList.appendChild(todoItem);
+        });
+    }
+
+    newTodoInput.addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            addTodo();
+        }
+    });
+
+    renderTodoList();
+});
+```
+
+通过以上代码，你已经创建了一个基本的 TodoMVC 应用程序。现在你可以通过添加更多的功能、样式和互动性来扩展它。此外，你还可以尝试使用不同的 JavaScript 框架或库来实现相同的功能，如React、Vue或Angular。
