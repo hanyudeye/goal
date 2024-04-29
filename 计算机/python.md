@@ -34,6 +34,8 @@ Python 速查表中文版
   - [pip换源](#pip换源)
     - [永久换源：](#永久换源)
     - [换回默认源](#换回默认源)
+  - [with 语句用法 (避免忘记写关闭close 语句)](#with-语句用法-避免忘记写关闭close-语句)
+  - [csv 处理](#csv-处理)
 
 ## 常规
 
@@ -623,3 +625,18 @@ pip config set global.index-url http://pypi.douban.com/simple/
 
 ### 换回默认源
 pip config unset global.index-url
+
+## with 语句用法 (避免忘记写关闭close 语句)
+```py
+with open("test.md","r") as f:
+    content = f.read()
+    print(content)
+```
+## csv 处理
+```py
+import csv
+with open("test.csv","r") as f:
+    cf=csv.reader(f)
+    for i in cf:
+        print(i)
+```
