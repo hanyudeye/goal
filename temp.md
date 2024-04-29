@@ -1,0 +1,1 @@
+The IDE has detected Microsoft Defender with Real-Time Protection enabled. It might severely degrade IDE performance. It is recommended to make sure the following paths are added to the Defender folder exclusion list: 
