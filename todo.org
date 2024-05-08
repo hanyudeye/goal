@@ -1,0 +1,25 @@
+当初学者想要学习Python和JavaScript的时候，可以从一些简单易懂、有趣味性的脚本仓库开始。以下是一些适合初学者的Python和JavaScript脚本仓库推荐：
+
+### Python 脚本仓库：
+
+1. **Automate the Boring Stuff with Python**: 该仓库是《Automate the Boring Stuff with Python》这本畅销书的代码仓库，提供了许多实用的Python脚本示例，用于自动化日常任务。
+   - GitHub链接：[Automate the Boring Stuff with Python](https://github.com/AlSweigart/automate)
+   
+2. **Python-Scripts**: 这个仓库包含了各种Python脚本，从基础到稍微复杂的项目都有，适合初学者逐步学习和实践。
+   - GitHub链接：[Python-Scripts](https://github.com/realpython/python-scripts)
+
+3. **Python小脚本大全**: 这个仓库收集了许多简单但有趣的Python小脚本，如文本处理、数据分析、网络爬虫等，适合初学者练习和参考。
+   - GitHub链接：[Python小脚本大全](https://github.com/geekcomputers/Python)
+
+### JavaScript 脚本仓库：
+
+1. **JavaScript30**: 该仓库是由Wes Bos创建的一个系列教程，每天发布一个使用原生JavaScript完成的小项目，涵盖了各种主题和技术，非常适合初学者练习。
+   - GitHub链接：[JavaScript30](https://github.com/wesbos/JavaScript30)
+
+2. **30 Seconds of Code**: 这个仓库包含了许多有用的JavaScript代码片段，每个代码片段都很短小，适合初学者学习和理解JavaScript的各种功能和技巧。
+   - GitHub链接：[30 Seconds of Code](https://github.com/30-seconds/30-seconds-of-code)
+
+3. **JS-Snippets**: 这个仓库收集了许多JavaScript代码片段，涵盖了各种主题和用途，从基础到高级都有，非常适合初学者练习和学习JavaScript。
+   - GitHub链接：[JS-Snippets](https://github.com/sqreen/JS-Snippets)
+
+以上这些仓库都是初学者友好的，提供了丰富的示例和项目，能够帮助初学者更好地理解和掌握Python和JavaScript编程语言。
