@@ -750,34 +750,6 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 
 此插件可以将剪贴板中的 JSON 字符串转换成工作代码。支持多种语言。
 
-## 八、常见主题插件
-
-给你的 VS Code 换个皮肤吧，免费的那种。
-
--   Dracula Theme  
-    
--   Material Theme  
-    
--   Nebula Theme  
-    
--   [One Dark Pro](https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dzhuangtongfa.Material-theme)  
-    
--   One Monokai Theme  
-    
--   Monokai Pro  
-    
--   Ayu  
-    
--   [Snazzy Plus](https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dakarlsten.vscode-snazzy-akarlsten)  
-    
--   [Dainty](https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dalexanderte.dainty-vscode)  
-    
--   `SynthWave '84`  
-    
--   GitHub Plus Theme：白色主题  
-    
--   Horizon Theme：红色主题  
-    
 
 ## 最后一段
 
@@ -812,3 +784,13 @@ CSS Peek 对 Vue 没有支持，该插件提供了对 Vue 文件的支持。
 -   [Mac Vscode 快捷键](https://link.zhihu.com/?target=https%3A//lsqy.tech/2020/03/14/20200314Mac-Vscode%25E5%25BF%25AB%25E6%258D%25B7%25E9%2594%25AE/)  
     
 -   [使用 VSCode 的一些技巧](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3Fsrc%3D11%26timestamp%3D1591581536%26ver%3D2387%26signature%3Di4xLZlLe1Gkl7OiBIhPO%2AVSeNB5lzFgTY-dgNW9E9ZbtIAv4bnJ1RdAAZdhvDw%2Acg-DmMcUa-V8NSUdV-tthmXZCq3ht4edCweq6v0QxKjnh8IuAxyyh5qymdRui%2A8iE%26new%3D1)
+
+
+## 本地配置 .vscode
+
+- settings.json：这个文件包含了项目的设置选项。
+- launch.json：这个文件用于配置调试器。
+- tasks.json：这个文件用于定义和配置任务（Tasks）
+- extensions.json：这个文件用于记录项目所依赖的扩展插件。
+- sconfig.json（对于 JavaScript/TypeScript 项目）：这个文件用于配置 JavaScript 或 TypeScript 项目的编译选项、语言服务设置等
+- C:\Users\Administrator\AppData\Roaming\Code\User\keybindings.json  : 键盘快捷键
