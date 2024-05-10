@@ -4,3 +4,6 @@
 
 善于使用 工具，创造好用的工具。
 查找工具，选择工具，推广工具
+
+## Start Small, Stay Small
+《Start Small, Stay Small》着眼小众市场，程序员的微型创业项目指南
