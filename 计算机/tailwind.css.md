@@ -1,5 +1,3 @@
-Tailwind CSS 是一个用于快速构建现代网站和 Web 应用的 CSS 框架。它与传统的 CSS 框架（如Bootstrap）有所不同，因为它采用了一种全新的方法来构建界面，称为“原子化 CSS”。这意味着你可以通过将原子类（atomic classes）应用于 HTML 元素来快速构建复杂的样式。
-
 ### Tailwind CSS 的特点：
 
 1. **原子化 CSS：** Tailwind CSS 将常用的 CSS 属性和值封装为原子类，例如 `text-center` 用于居中文本，`bg-blue-500` 用于设置背景颜色为蓝色。

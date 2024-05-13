@@ -86,13 +86,7 @@ Git 的版本库有一个称为 Stage 的暂存区以及最后的 History 版本
 
 Git 会使用 \<\<\<\<\<\<\< ，======= ，\>\>\>\>\>\>\> 标记出不同分支的内容，只需要把不同分支中冲突部分修改成一样就能解决冲突。
 
-```
-<<<<<<< HEAD
-Creating a new branch is quick & simple.
-=======
 Creating a new branch is quick AND simple.
->>>>>>> feature1
-```
 
 ## Fast forward
 
