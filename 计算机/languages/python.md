@@ -1,43 +1,5 @@
 # Python
 
-* Python is an interpreted, high-level and general-purpose, dynamically typed programming language
-
-* It is also Object oriented, modular oriented and a scripting language.
-
-* In Python, everything is considered as an Object.
-
-* A python file has an extension of .py
-
-* Python follows Indentation to separate code blocks instead of flower brackets({}).
-
-* We can run a python file by the following command in cmd(Windows) or shell(mac/linux).
-
-    `$ python <filename.py>` or `$ python3 <filename.py>`
-
-#### By default, python doesn't require any imports to run a python file.
-
-## Create and execute a program
-
-1. Open up a terminal/cmd
-1. Create the program: nano/cat > nameProgram.py
-1. Write the program and save it
-1. python nameProgram.py
-
-<br>
-
-### Basic Datatypes
-
-| Data Type | Description |
-| --------- | ----------- |
-| int | Integer values [0, 1, -2, 3] |
-| float | Floating point values [0.1, 4.532, -5.092] |
-| char | Characters [a, b, @, !, `] |
-| str | Strings [abc, AbC, A@B, sd!, `asa] |
-| bool | Boolean Values [True, False] |
-| complex | Complex numbers [2+3j, 4-1j] |
-
-<br>
-
 ## Keywords
 <br>
 
@@ -82,48 +44,8 @@
 | nonlocal | modify variables from different scopes | variable handling |
 <br>
 
+
 ## Operators
-
-<br>
-
-| Operator | Description |
-|-|-|
-|  ( )	|  grouping parenthesis, function call, tuple declaration |
-|  [ ]	|  array indexing, also declaring lists etc.|
-|  !	|    relational not, complement, ! a  yields true or false |
-|  ~   | 	bitwise not, ones complement, ~a |
-| \-   |	unary minus, - a |
-|  \+   | 	unary plus,  + a |
-|  \*   |	multiply, a * b |
-|  /   	| divide, a / b |
-|  %    |	modulo, a % b |
-|  \+   | 	add, a + b |
-| \-   | 	subtract, a - b |
-| <<   | shift left,  left operand is shifted left by right operand bits (multiply by 2) |
-| \>>   |	shift right, left operand is shifted right by right operand bits (divide by 2) |
- | <    |	less than, result is true or false,  a %lt; b
-| <=   |	less than or equal, result is true or false,  a <= b
-| \>    |	greater than, result is true or false,  a > b
-| \>=   |	greater than or equal, result is true or false, a >= b
-|  ==   |	equal, result is true or false,  a == b
-| !=  | 	not equal, result is true or false,  a != b
-|  & | bitwise and,  a & b
-| ^ | bitwise exclusive or XOR,  a ^ b
-| \| | bitwise or,  a | b
-|  &&, and | relational and, result is true or false,  a < b && c >= d
-| \|\|, or | relational or, result is true or false,  a < b \|\| c >= d |
-| =  | store or assignment |
-|  += | add and store |
-|  -=  | subtract and store |
-|  *= | multiply and store |
-|  /= | divide and store|
-|  %= | modulo and store|
-| <<= | shift left and store|
-|  \>>= | shift right and store|
-|  &= | bitwise and and store|
-|  ^= | bitwise exclusive or and store|
-|  \|= | bitwise or and store|
-|  , | separator as in   ( y=x,z=++x )|
 
 ### Basic Data Structures
 
@@ -387,7 +309,6 @@ function_name()
 - 创建  python -m venv  My_env
 - 激活  source My_env/bin/activate (windows 是  My_env\Scripts\activate)
 - 关闭虚拟环境  deactivate
-
 
 激活后，可以安装项目了 Django 
 pip install  Django==4.2
