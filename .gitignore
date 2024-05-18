@@ -1,15 +1,9 @@
 
-mobile/
 *.class
-node_modules/
 *.o
 *.out
-main
-arguments
 *.exe
 *.pdb
-thinkphp/
-vue2/
 *.pyc
-vendor/
 *.el~
+*.pptx
