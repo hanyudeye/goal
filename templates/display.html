@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Display Data</title>
+</head>
+
+<body>
+    <h1>Submitted Data</h1>
+    <ul>
+        {% for item in data %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go back to submit more data</a>
+</body>
+
+</html>
