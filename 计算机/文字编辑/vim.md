@@ -20,7 +20,7 @@ inoremap jk <ESC>
 - 自动复制到全局剪切板  :'<,'>w !clip.exe
 
 
-配置 vim 复制，中文乱码
+配置 vim 复制，中文乱码，没有用
 
 ```wsl
 if system('uname -r') =~ "Microsoft"
