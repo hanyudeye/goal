@@ -27,3 +27,12 @@ dotspacemacs-scrath-mode 'text-mode
 (set-fontset-font (frame-parameter nil ‘font)
 charset
 (font-spec :family “Microsoft Yahei” :size 16)))
+
+
+;; 在终端中，使emacs 透明，没有用
+(defun on-after-init ()
+  (unless (display-graphic-p (selected-frame))
+    (set-face-background 'default "unspecified-bg" (selected-frame))))
+
+(add-hook 'window-setup-hook 'on-after-init)
+
