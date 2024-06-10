@@ -15,6 +15,8 @@
 
 - 做一个 Web 相册程序，基于 Next.js
 - 使用网站程序 wordpress
+- 学习vue  每天1章
+- 做视频，在自己的博客中嵌入youtube视频链接，订阅推特
 
 # DONE 做完这个任务
 
