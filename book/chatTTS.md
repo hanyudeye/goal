@@ -1,4 +1,7 @@
-加入口语化 ：[oral]笑声：[laugh]停顿：[uv_break] 停顿
+加入口语化 ：[oral] 
+笑声：[laugh]停顿：[uv_break] 停顿
+
+跳过refine text :这个是添加连接词，打勾 可以不加词
 
 配置端口: 再项目根目录  .env 文件进行修改
 
@@ -23,3 +26,5 @@ audio_array_cn = chat.infer(inputs_cn, params_refine_text=params_refine_text)
 torchaudio.save("output3.wav", torch.from_numpy(audio_array_cn[0]), 24000)
 
 ```
+
+![](images/2024-06-08-11-22-55.png)
