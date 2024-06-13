@@ -11,14 +11,16 @@ index.php
 //该常量定义为false时，不使用主题，站点会显示为空白，为true则正常显示
 define('WP_USE_THTME',true);
 
-
+```
 wp-blog-header.php
 
-看到wp的三个明显的阶段，初始化阶段、内容处理阶段、主题应用阶段
-```php
-
-
-```
+用于加载WP环境和模版
+``` php
+$wp_did_eader=true;
+//加载 wordpress library
+require_once __DIR__.'/wp-load.php' //这些是加载 wp-config.php,wp-settings.php 配置
+调用wp(); // 分析，并配置请求的参数
+加载 wp-includes/template-loader.php //根据配置加载正确的模版
 
 ```
 
