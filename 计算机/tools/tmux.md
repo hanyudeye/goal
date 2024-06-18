@@ -9,7 +9,6 @@ bind -r k select-pane -U  # move up
 bind -r l select-pane -R  # move right
 bind > swap-pane -D       # swap current pane with the next one
 bind < swap-pane -U       # swap current pane with the previous one
- 
 
 ## 分割窗口(窗格)
 
