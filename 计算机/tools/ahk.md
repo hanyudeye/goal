@@ -49,9 +49,8 @@ ToggleQuakeWindowT(windowT)
 ```
 
 #z::ToggleQuakeWindowT("Telegram ")
-=======
 ## script
-
+    
 ``` ahk
 CapsLock::Ctrl
 !j:: Send {Down}
