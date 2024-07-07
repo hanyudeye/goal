@@ -7,3 +7,5 @@
 *.pyc
 *.el~
 *.pptx
+node_modules/
+.zip
