@@ -18,9 +18,21 @@ inoremap jk <ESC>
 - 专注模式 <leader>z
 - 快速打开配置文件  <leader>e 
 - 自动复制到全局剪切板  :'<,'>w !clip.exe
+- 注释 gc
+- 粘贴板历史 Ctrl+N 
+- 取消高亮 <leader> <cr>
+- 关闭tab <leader>tc
+- Ack 查找 <leader>g
+- 快速打开 buffer 窗口 <leader>q
+- Toggle paste mode <leader>pp
+Vim 的 Paste Mode 用于在粘贴文本时禁用自动缩进和其他可能影响粘贴内容的编辑功能。这个模式特别有用，当你从外部来源（如网页或另一个编辑器）复制内容并粘贴到 Vim 时，防止 Vim 的自动缩进、自动换行等功能干扰粘贴内容的格式。
 
+### Plugin related mappings
 
-配置 vim 复制，中文乱码
+- NerdtreeToggle  <leader>nn
+- Running code <F5>
+
+配置 vim 复制，中文乱码，没有用
 
 ```wsl
 if system('uname -r') =~ "Microsoft"
