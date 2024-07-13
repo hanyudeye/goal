@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxiety Relief - 减轻焦虑</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+
+        #timer {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #meditation-text {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        #animation {
+            width: 200px;
+            height: 200px;
+            background-color: #87ceeb;
+            border-radius: 50%;
+            margin: 0 auto;
+            animation: pulse 5s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                /* transform: scale(0.5); */
+                transform: scale(0.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="timer">5:00</div>
+        <div id="meditation-text">
+            Breathe in. Breathe out. Focus on the present moment.
+            <br />
+            缓慢呼吸，专注当前感受
+        </div>
+        <!-- 先不要放置音乐 -->
+        <div id="muisc-select"></div>
+        <div id="animation"></div>
+
+
+    </div>
+
+</body>
+
+</html>
