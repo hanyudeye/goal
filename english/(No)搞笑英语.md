@@ -20,5 +20,3 @@ Mimicking accents or dialects in a funny way. （以滑稽的方式模仿口音�
 "I used to play piano by ear, but now I use my hands." （我过去靠听觉弹钢琴，但现在我用手。）
 搞笑英语的特点在于其不拘一格、大胆夸张和常常突破语言的常规用法，通过意外的言辞或者意外的语法结构来引起观众的笑声和共鸣。
 
-
-英语搞笑段子

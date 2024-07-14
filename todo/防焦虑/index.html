@@ -72,6 +72,35 @@
 
     </div>
 
+    <script>
+        let timer=300;//5 分钟的定时器
+        const timerDisplay=document.getElementById('timer');
+        const mediationText=document.getElementById("mediation-text");
+        const animation=document.getElementById('animation');
+
+        function startTimer(){
+            const interval=setInterval(()=>{
+
+                minutes=Math.floor(timer/60);
+                seconds=timer %60;
+                timerDisplay.textContent=`${minutes}:${seconds<10?'0':''}${seconds}`;
+                if(timer<=0){
+                         clearInterval(interval);
+                timerDisplay.textContent = 'Time\'s up!';
+                meditationText.textContent = 'Take a deep breath and continue your day with a peaceful mind.';
+                }else{
+                    timer--;
+                }
+
+        // Gradually shrink animation size
+            const scale = 1 - (timer / 300); // Adjust 300 to match timer length
+            animation.style.transform = `scale(${scale})`;
+            },1000);
+        }
+
+        //Start timer on page load
+        startTimer();
+    </script>
 </body>
 
 </html>

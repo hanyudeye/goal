@@ -17,3 +17,6 @@ https://github.com/sorayuki/obs-multi-rtmp/tree/master
 
 然后解压到 obs 安装根目录，然后重启 obs
 
+## 区域录屏
+
+1. 添加裁剪滤镜
