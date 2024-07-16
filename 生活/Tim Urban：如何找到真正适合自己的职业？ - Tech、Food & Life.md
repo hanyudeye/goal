@@ -1,18 +1,17 @@
+
+Tim Urban：如何找到真正适合自己的职业？ - Tech、Food & Life.md
+
 ### **你迄今为止的生活**
 
 对于大多数人来说，童年就像一条河，我们就是河里的蝌蚪。
 
 我们没有办法选择河流。我们醒来的那天，就已经在这条父母、社会和大环境给我们选定的道路上了。我们被告知了河流的生存法则、正确的泳姿和我们的目标。
 
-![](https://g.imgtg.com/uploads/5215/6683734dd4ad4.webp)
-
 对我们许多人来说，我们的童年河流最终通向了一个叫作大学的池塘。我们可能对我们落脚的特定池塘有一定的选择空间，但大多数大学池塘实际上并没有真正区别。
 
 在池塘中，我们有了更多的活动空间和自由度。我们开始思考，开始望向池塘外——看着现实社会的样子，看着那个我们将度过余生的地方。这些通常会给我们带来复杂的情绪。
 
 然后，在河流中呆了22年后，我们被踢出大学这个池塘，然后被告知“去吧，去创造自己的生活。”
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW1icKQTsGZaKD13GSIVmzZLLOJAtLxdy2x2ic2ZRhTw9oDT77kLDV4RU4wY5SrHg1OdEpZTAibcje7Bg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 一个普通人的人生路径
 
@@ -546,21 +545,14 @@ ___
 
 我喜欢把这段路程看成一个距离问题。行程的起点，是你现在的位置（A），终点是你自己对于成功的定义，我们用一个星星来标注。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3tibRvjic4vggK5Br7UhicxjILGgaLq9iafouA2fIRdncYwX6gRZibANJUUTEsicZAFF0Cr3mewmS3U5qQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 这个距离有多大，取决于A在哪里（你当前的位置）和星星在哪里（你的成功标准有多高）。
 
 举个例子，如果你是一名主修计算机科学的大学毕业生，你的职业目标是成为谷歌的中层工程师，你的距离可能是这样的：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3tibRvjic4vggK5Br7UhicxjIXiaj60mMEBCXXCdj3f8bGNhkaBibXQuSu6VVBibHgjGqnaxssthaq0Y4A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 但如果你从没有做过计算机相关的工作，而你的职业目标是做一个谷歌的顶尖工程师。在这种情况下，你要走的距离就远了：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3tibRvjic4vggK5Br7UhicxjII3CPHB7OwRsPxdIQPKusvP1ABV5OeXNRduXpn4uXemXrubiaKZaKicsw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 假如说你的目标是建立下一个谷歌，那么这条路就会变得非常长：
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3tibRvjic4vggK5Br7UhicxjIpcjVc5cDVJzG2KbT8lvbPJ8E6XDZqTRR5yVQQKBiclr0EL405qgrnHQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 这个时候，传统认知可能会从你脑子里冒出来告诉你，仅仅在某个技能上变得足够强并不一定能保证成功——你可能摘到了自己那颗星星，但是仍然觉得自己不够成功。
 
@@ -601,8 +593,6 @@ Progress = Pace x Persistence.
 就像我们前面说的，大厨以全新的眼光看待世界，然后通过自己的观察和体验来得出结论。厨师则是通过别人的菜谱来到达结论。
 
 在职业上面，菜谱就是传统认知。职业是很复杂的游戏，每个人入场的时候几乎都是菜鸟，而“大厨”们是会通过一个闭环来持续提高的。“厨师”们则是用蜗牛速度在提高。
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/t2LHclGQxW3YBzjdfYF7PbjMdCgXCr16vkHugA847bzicicGRflgslSf2iaE98fag8FZ47UHsmRheESjBtB1HNGng/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 更重要的是，在一个职业游戏不断变化和变形的世界里，大厨的策略可以实时发展和跟上。与此同时，厨师的菜谱只会变得越来越过时——他们对此问题一无所知。
 
@@ -726,7 +716,6 @@ ___
 
 对于很多人来说，职业生涯有点像一个40年的管道。一旦你进入了其中一根管道，你的路径就固定了。你在那个职业工作40年，然后离开那条管道，开始退休生活。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3nWSre3RGoSCnBRJJibU4QUk5QB6ViaHpLzUlOwA4tCjUrWD95Lq2Ea8dpBOklVT0CcZb6HiaCMMsrw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 过去的传统职业生涯 - 一根长长的管道
 
@@ -830,8 +819,6 @@ ___
 
 你会将自己和在平行宇宙中做出不同选择的自己进行比较。你会幻想那些你本可以做出的改进，并担心你可能已经错过了它们。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3nWSre3RGoSCnBRJJibU4QU3IA50TXlw8ibHkWXYJqTdnL3R6YQSia0UHiaDgyJOjM4H9icQrvycm29PA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 随着你变得更加睿智，你会学着用接纳的态度来看待不开心的八爪鱼。你会任它发牢骚，并且学会忽略这些牢骚，因为这些牢骚是你预计之中的。
 
 发牢骚的八爪鱼，这正是纯粹而高级的快乐从来都不是一个合理的目标的原因。那些让你感觉到纯粹快乐的时刻，其实是短暂的幻觉。就像一段感情的蜜月期，一份新工作，或者努力获得期待已久的成功的那一刻。
@@ -862,8 +849,6 @@ ___
 
 在这种时候，你要好好的考虑在下面的光谱上你站在什么位置：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/t2LHclGQxW3nWSre3RGoSCnBRJJibU4QUB0YOElTiaVMUichjowEKF83XfGR7DbRtCCtOz6IBzawwkrOOvO96VEFQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 光谱的左边是羞于起跳的人，他们好像穿着水泥鞋。他们的一个缺点是在错误的事情上花费过多的时间。
 
 而光谱的右边是乐于起跳的人，他们好像穿着飞行鞋。他们的缺点则是相反，他们容易在半路上放弃。
@@ -881,8 +866,6 @@ ___
 还是在旅程中新获得的关于自我或这个世界的信息，改变了你那些错误的初始假设？
 
 抑或是因为某些事物正在发生根本的变化（比如你自己改变了，或者这个世界改变了）？
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/t2LHclGQxW2Ue6CxmQxwX4faQECNHrcdmvgW97RaTfyibGfcmYwbSN0KUSph1JeBMM0Teib2YuSQUZEMHqo7dA8g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 如果你觉得情况真的变了，那么你可能要把视野拉的更宏观一点，好好反思一下上图中的各个部分，然后重新思考自己的目标选择。
 
