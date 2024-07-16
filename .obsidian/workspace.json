@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/backend/react.md",
+                "file": "diary.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/backend/react.md",
+                "file": "diary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/backend/react.md",
+                "file": "diary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/backend/react.md"
+                "file": "diary.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "3b3cd5d0fce11094",
   "lastOpenFiles": [
+    "计算机/backend/react.md",
     "english/口语要素228例精选.txt",
     "english/口语要素228例精选.md",
     "english/(No)国外生活必备的英文词汇.txt",

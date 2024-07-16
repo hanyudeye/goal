@@ -9,3 +9,4 @@
 *.pptx
 node_modules/
 .zip
+.obsidian/
