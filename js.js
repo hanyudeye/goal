@@ -27,3 +27,18 @@ function 默认参数(p = fengshan) {
 
 // 默认参数();
 
+// 箭头函数
+
+var 箭头函数 = args => {
+    console.log(`我是箭头函数  ${args}`)
+}
+
+// 箭头函数("hello")
+
+// 还起到 省略 return 的效果
+
+var 箭头函数1=args=>`参数是 ${args}`
+// console.log(箭头函数1("hello"));
+
+
+

@@ -2,6 +2,9 @@ import logo from './logo.svg';
 // import './App.css';
 import GaussianBlur from './components/GaussianBlur/index'
 
+function f(){
+  console.log("helo")
+}
 
 function App() {
   return (
