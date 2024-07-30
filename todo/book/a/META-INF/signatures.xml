@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:signatures xmlns:c="urn:oasis:names:tc:opendocument:xmlns:container">
+	<d:Signature xmlns:d="http://www.w3.org/2000/09/xmldsig#">
+		<d:SignedInfo>
+			<d:CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<d:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#hmac-sha1" />
+						<d:Reference URI="OEBOOK/chapter010.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>JMBSlt3iZKNLH8evJeXPzyfAEBk=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter011.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>XExT5E89INTlFYsKVDr5p+MFTS4=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter005.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>Acfjr0cj7p+yiWzJkrVeMqbfg3A=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="META-INF/container.xml">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>5CA3S6UIgy2Xg8rFWEABYrDqfnM=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter009.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>WHhekuE1RclR0CW8fY4/f+lE9n8=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/css/main.css">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>OMk3hfrAYXqnx/SCzyrBzh343DY=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter007.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>VS1OmQAFv4VKRYtk/eAdewYb9f8=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter003.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>o71VC2xMA/vV+6lK5RT+veaAFdw=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/coverpage.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>CkRYmHEXZ4XrcIPbbr9k2EddWug=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="mimetype">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>jK41hNNg9yHE3Qyjik8tizbadMc=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/catalog.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>YReGZPcazr6zl6smulxtqbPJdHg=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter006.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>vGiAC2P/oNbMm8mNDSKSnP2AM68=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter008.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>BsrlLadtJQaNq7sho6DQMqRgbQ0=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="dangdang">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>lcsL/Sl3x2EpjZYk5LTUxyo5l0o=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/cold.opf">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>IHCuLS3+vu6Hfj7rPcPcYq/ooeo=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter001.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>T/iwTSHmnH7waooP8o4/zJR+2g4=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter015.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>WQ0c1Ix+EFN8jFC7xMH3HcHjbeg=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter014.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>hInGihpM5iM9GnfkBlGobofGMnY=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/images/cov1.jpg">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>pN7vPm3s3EnKHHHamNRIWRGNCXI=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter002.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>zRPaGpd83ckzRpjQQBSiX+4/NeU=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/bookname.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>si+HGEq+DGZDrmzpIe8ylRXDi7Y=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter012.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>349b3hz7JaNzXhNjQ9dKTSQ3pek=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/toc.ncx">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>+0zC93wafozlv+76/G2va6s0lhU=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter013.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>OE0N1Njjx5zmL+HH5UsoN/GF0iY=</d:DigestValue>
+			</d:Reference>
+			<d:Reference URI="OEBOOK/chapter004.html">
+				<d:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<d:DigestValue>DUl1+bNnJkD1al4P4ak9o89yTBA=</d:DigestValue>
+			</d:Reference>
+		</d:SignedInfo>
+	</d:Signature>
+</c:signatures>
