@@ -1,0 +1,140 @@
+功能：
+
+1.画布
+2.以1米或500毫米为单位的辅助网格（锁定）
+3.绘制墙线（墙体相交锁定）、支持墙线标注、基于墙线计算面积
+4.支持在墙线上插入门窗（墙开孔）、柱
+5.支持素材（家具、设备、设施）图片的扩充
+
+二、使用场景
+1.小面积
+2.家具设施布置标准化
+
+
+## 实现 
+
+创建一个用于绘制二维建筑平面图的网页应用，可以使用 HTML5、CSS、JavaScript 以及一些第三方库来实现。以下是一个基础的实现思路：
+
+主要技术栈
+HTML5 Canvas - 用于绘制图形。
+CSS - 用于样式设计。
+JavaScript - 实现交互逻辑。
+Third-party Libraries - 如 Fabric.js（简化 Canvas 操作）和 jQuery（DOM 操作简化）。
+关键功能实现
+1. 画布和辅助网格
+使用 HTML5 的 Canvas 元素作为画布，并通过绘制网格线来实现辅助网格。
+
+2. 绘制墙线
+使用 Fabric.js 绘制可拖动和缩放的线条，表示墙线。
+
+3. 墙线标注和面积计算
+通过事件监听获取墙线的长度，显示标注，并计算围成区域的面积。
+
+4. 插入门窗和柱子
+在墙线上添加门窗和柱子，通过点击或拖动的方式实现。
+
+5. 素材图片扩充
+允许用户从预定义的素材库中选择家具和设备，并将其拖放到画布上。
+
+以下是一个基本的实现示例：
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D Floor Plan Drawing Tool</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #canvas-container {
+            position: relative;
+            border: 1px solid #ccc;
+        }
+        canvas {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div id="canvas-container">
+    <canvas id="floor-plan-canvas" width="1000" height="800"></canvas>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+<script>
+    const canvas = new fabric.Canvas('floor-plan-canvas');
+    const grid = 50; // 50 pixels = 500mm
+
+    // Draw grid
+    for (let i = 0; i < (canvas.width / grid); i++) {
+        canvas.add(new fabric.Line([ i * grid, 0, i * grid, canvas.height], { stroke: '#ccc', selectable: false }));
+        canvas.add(new fabric.Line([ 0, i * grid, canvas.width, i * grid], { stroke: '#ccc', selectable: false }));
+    }
+
+    // Add event listeners for drawing walls
+    let isDrawing = false;
+    let line;
+    canvas.on('mouse:down', function(o) {
+        isDrawing = true;
+        const pointer = canvas.getPointer(o.e);
+        const points = [ pointer.x, pointer.y, pointer.x, pointer.y ];
+        line = new fabric.Line(points, {
+            strokeWidth: 5,
+            fill: 'black',
+            stroke: 'black',
+            originX: 'center',
+            originY: 'center'
+        });
+        canvas.add(line);
+    });
+
+    canvas.on('mouse:move', function(o) {
+        if (!isDrawing) return;
+        const pointer = canvas.getPointer(o.e);
+        line.set({ x2: pointer.x, y2: pointer.y });
+        canvas.renderAll();
+    });
+
+    canvas.on('mouse:up', function(o) {
+        isDrawing = false;
+    });
+
+    // Function to add doors/windows
+    function addRect(type) {
+        const rect = new fabric.Rect({
+            left: 100,
+            top: 100,
+            fill: type === 'door' ? 'brown' : 'lightblue',
+            width: 40,
+            height: 80,
+            hasControls: false,
+            hasBorders: false,
+            selectable: true
+        });
+        canvas.add(rect);
+    }
+
+    // Example buttons to add doors and windows
+    const btnAddDoor = document.createElement('button');
+    btnAddDoor.innerText = 'Add Door';
+    btnAddDoor.onclick = () => addRect('door');
+    document.body.appendChild(btnAddDoor);
+
+    const btnAddWindow = document.createElement('button');
+    btnAddWindow.innerText = 'Add Window';
+    btnAddWindow.onclick = () => addRect('window');
+    document.body.appendChild(btnAddWindow);
+
+</script>
+</body>
+</html>
+进一步扩展
+墙线标注和面积计算：可以通过计算墙线的长度，添加标注文本，并使用多边形包围区域计算面积。
+素材图片扩充：可以用类似于添加门窗的方法，从素材库中选择图片并放置在画布上。
+标准化家具布置：可以创建一个包含标准家具尺寸和布局的素材库，让用户直接拖放到平面图上。
+此示例提供了一个基本的框架，您可以根据需要进行扩展和优化。
