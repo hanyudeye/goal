@@ -6,3 +6,5 @@
 
 - 把 vscode 的快捷键映射为 win+a，更方便鼠标
 做一个电子书站点 （用 react 和 express)
+
+了解人性
