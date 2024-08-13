@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <GaussianBlur children={[1,2,4]}></GaussianBlur>
+      <h2>属性的用法:</h2>
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
