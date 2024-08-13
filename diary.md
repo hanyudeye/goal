@@ -30,3 +30,30 @@
 ### 08.03
 
 找一个 canvas 一样的免费的插画网站
+
+### 08.04
+
+阅读一本书 就像 阅读一个人的思想。
+
+
+on run {input, parameters}
+-- 声明一个变量来存储先前的剪贴板内容
+set previousClipboard to ""
+
+-- 无限循环来持续监视剪贴板
+repeat
+    -- 获取当前剪贴板内容
+    set currentClipboard to (the clipboard as text)
+   -- 
+    -- 如果剪贴板内容发生变化且非空
+    if currentClipboard is not equal to previousClipboard and currentClipboard is not "" then
+        -- 使用 say 命令朗读剪贴板内容
+        do shell script "say " & quoted form of currentClipboard
+        -- 更新先前的剪贴板内容
+        set previousClipboard to currentClipboard
+    end if
+    
+    -- 每0.5秒检查一次
+    delay 0.5
+end repeat
+end run
