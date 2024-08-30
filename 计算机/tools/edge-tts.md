@@ -4,10 +4,17 @@
 
 pip install edge-tts
 
-# 用法
+# 参数列表
+usage: edge-tts [-h] [-t TEXT] [-f FILE] [-v VOICE] [-l]
+                [--rate RATE] [--volume VOLUME] [--pitch PITCH]
+                [--words-in-cue WORDS_IN_CUE] [--write-media WRITE_MEDIA] 
+                [--write-subtitles WRITE_SUBTITLES][--proxy PROXY]
 
+
+## 用法
 
 $ edge-tts --text "Hello,world!" --write-media hello.mp3 --write-subtitles hello.vtt
+
 
 ## 列出声音
 
