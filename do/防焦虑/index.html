@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxiety Relief - 减轻焦虑</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        }
+
+        #timer {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #meditation-text {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        #animation {
+            width: 200px;
+            height: 200px;
+            background-color: #87ceeb;
+            border-radius: 50%;
+            margin: 0 auto;
+            animation: pulse 5s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                /* transform: scale(0.5); */
+                transform: scale(0.5);
+            }
+        }
+
+        #music-select {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="timer">5:00</div>
+        <div id="meditation-text">
+            Breathe in. Breathe out. Focus on the present moment.
+            <br />
+            缓慢呼吸，专注当前感受
+        </div>
+        <div id="muisc-select">
+            <label for="music">Choose calming music(可以选一首音乐):</label>
+            <select id="music">
+                <option value="none">None</option>
+                <option value="1">Soft Piano</option>
+                <option value="2">Ocean Waves</option>
+                <option value="3">Forest Sounds</option>
+            </select>
+        </div>
+        <div id="animation"></div>
+
+
+    </div>
+
+    <script>
+        let timer = 300;//5 分钟的定时器
+        const timerDisplay = document.getElementById('timer');
+        const mediationText = document.getElementById("mediation-text");
+        const animation = document.getElementById('animation');
+        const musicSelect = document.getElementById('music');
+
+        function startTimer() {
+            const interval = setInterval(() => {
+
+                minutes = Math.floor(timer / 60);
+                seconds = timer % 60;
+                timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                if (timer <= 0) {
+                    clearInterval(interval);
+                    timerDisplay.textContent = 'Time\'s up!';
+                    meditationText.textContent = 'Take a deep breath and continue your day with a peaceful mind.';
+                } else {
+                    timer--;
+                }
+
+                // Gradually shrink animation size
+                const scale = 1 - (timer / 300); // Adjust 300 to match timer length
+                animation.style.transform = `scale(${scale})`;
+            }, 1000);
+        }
+
+        //Start timer on page load
+        startTimer();
+
+
+        var audio = null;
+        // Handle music selection
+        musicSelect.addEventListener('change', function () {
+            const selectedMusic = musicSelect.value;
+            switch (selectedMusic) {
+                case '1':
+                    // Play soft piano music
+                    if (audio) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                    }
+                    audio = new Audio("./piano.mp3")
+                    audio.play();
+                    break;
+                case '2':
+                    // Play ocean waves sound
+                    if (audio) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                    }
+                    audio = new Audio("./ocean.mp3")
+                    audio.play();
+                    break;
+                case '3':
+                    if (audio) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                    }
+                    audio = new Audio("./forest.mp3")
+                    audio.play();
+                    // Play forest sounds
+                    break;
+                default:
+                    if (audio) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                    }
+                    // Stop any playing music
+                    break;
+            }
+        });
+    </script>
+</body>
+
+</html>
