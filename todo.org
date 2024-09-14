@@ -2,3 +2,7 @@
 
 * 适合朋友圈的广告
 * 做一个编辑器
+
+https://zhuanlan.zhihu.com/p/166375631
+
+对，proxychains 的功能远远不止于达到换源的效果。比如你想FQ ，可以直接 proxychains /usr/bin/chrome-stable --no-sandbox 达到效果，或者git clone something，连接海外小鸡SSH 加速
