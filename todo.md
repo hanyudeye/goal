@@ -1,4 +1,4 @@
-## 9月 本周项目
+## 9月 本周项目 (寻找需求)
 
 - 剪辑本月的12个视频 可能 *2
 - 另一个手机号登录抖音，快手，发布动物小猫的视频
@@ -7,6 +7,25 @@
 - Raycast（CMD + 空格）
 地址：Raycast折腾之路（常用功能篇）
 - 收集代码进行练习，和歌曲一样
+- 旧华为控制照相机，用矿泉水稳定支架
+
+1. 鞋子胶水，或收垃圾的地方看(架子)，补鞋子 (小区超市)
+
+hugo 主题
+https://github.com/adityatelange/hugo-PaperMod/wiki/Installation
+
+- ;激活资源管理器
+- #e::ToggleQuakeWindowT("ahk_class CabinetWClass")
+- 使用 lf 浏览文件 ，换主题为 第3个，然后使用命令 open 打开文件
+- 使用 ubuntu 然后使用 tmux 并用 ranger 或 lf 使用 explorer 打开程序
+
+winget install marktext
+自己有下载软件的呀，文石 什么的
+
+这是手工活的频道，可以下载
+https://www.youtube.com/results?search_query=craftsman+vision
+https://www.youtube.com/@Inventor101
+
 
 《童话》- 光良
 《告白气球》- 周杰伦

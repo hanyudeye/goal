@@ -2,12 +2,7 @@
 <!-- GFM-TOC -->
 - [Git](#git)
   - [集中式与分布式](#集中式与分布式)
-  - [.gitignore 文件](#gitignore-文件)
-  - [Git 命令一览](#git-命令一览)
-  - [参考资料](#参考资料)
-  - [查看远程仓库](#查看远程仓库)
-  - [查看最近修改日期](#查看最近修改日期)
-  - [git pull ，出现 refusing to merge unrelated histories ，怎么处理](#git-pull-出现-refusing-to-merge-unrelated-histories-怎么处理)
+  - [submodule](#submodule)
 <!-- GFM-TOC -->
 
 
@@ -30,3 +25,8 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 然后把公钥 id_rsa.pub 的内容复制到 Github "Account settings" 的 SSH Keys 中。
 
 7. 使用 .gitignore 文件来忽略版本文件
+
+## submodule
+
+git submodule add --depth=1   URL
+git submodule update --remote -merge
