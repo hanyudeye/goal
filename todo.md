@@ -10,6 +10,9 @@
 - 收集代码进行练习，和歌曲一样
 1. 或收垃圾的地方看(架子)，
 2. 种植番茄，吃烤土豆，盐巴
+3. 打火机充气
+
+
 
 hugo 主题
 https://github.com/adityatelange/hugo-PaperMod/wiki/Installation
