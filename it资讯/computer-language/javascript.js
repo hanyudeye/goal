@@ -6,8 +6,8 @@
 // });
 
 
-let 小兔子="小兔子"
-小兔子+=" 笨笨"
+let 小兔子 = "小兔子"
+小兔子 += " 笨笨"
 
 
 // for(let i=0;i<小兔子.length;i++){
@@ -16,9 +16,13 @@ let 小兔子="小兔子"
 //    },1000 *(i+1))
 // }
 
-let countries=['USA','US',"AUS","UK","CHINA","JAPAN","KOREA","INDIA","TAIWAN","HONGKONG","MACAO"]
+let countries = ['USA', 'US', "AUS", "UK", "CHINA", "JAPAN", "KOREA", "INDIA", "TAIWAN", "HONGKONG", "MACAO"]
 
 countries.push('NEWZLAND')
 // countries= countries.join(',')
 
-console.log(countries)
+// console.log(countries)
+
+countries.forEach((element, index) => {
+    console.log(element)
+})
