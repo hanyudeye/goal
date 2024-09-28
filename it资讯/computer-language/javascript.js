@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // a=[]
 // a[0]=323
 // a[1]="1abc"
@@ -26,3 +27,5 @@ countries.push('NEWZLAND')
 countries.forEach((element, index) => {
     console.log(element)
 })
+=======
+>>>>>>> 2a92d4996ba370e77959c540c46d2a736bdfa8ce
