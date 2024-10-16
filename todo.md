@@ -3,7 +3,8 @@
 - 看职业市场状态对人技能的需求
 - 经济学原理，人人都有追求财富的权利，相对激烈的竞争，收益好过打工
 - 看书籍，打开 win+z ，识别orc 文字
-- 看游戏书
+- 看游戏书  scratch - >  invent your own computer games with python -> making games with python & pygame
+
 
 ## 今年计划
 
