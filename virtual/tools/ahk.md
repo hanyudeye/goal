@@ -76,6 +76,8 @@ ToggleQuakeWindowT(windowT)
 CapsLock::Ctrl
 !j:: Send {Down}
 !k:: Send {Up}
+!h:: Send {Left}
+!l:: Send {Right}
 
 ;切换虚拟桌面
 #^;::Send #^{Right}
