@@ -34,6 +34,28 @@
 - [二十三、权限管理](#二十三权限管理)
 <!-- GFM-TOC -->
 
+## 修改mysql 数据库的名字
+
+ 要修改 MySQL 数据库的名称，你可以使用 `RENAME DATABASE` 语句，但这在较新的 MySQL 版本中并不被推荐，因为它在某些版本中不被支持。更安全和常用的方法是创建一个新的数据库并将数据从旧数据库转移到新数据库。以下是具体步骤：
+
+1. **创建新数据库**：
+   ```sql
+   CREATE DATABASE new_database_name;
+   ```
+
+2. **转移数据**：
+   使用 `mysqldump` 工具导出旧数据库的数据并导入到新数据库中。命令如下：
+   ```bash
+   mysqldump -u username -p old_database_name > old_database.sql
+   mysql -u username -p new_database_name < old_database.sql
+   ```
+
+3. **删除旧数据库**（如果不再需要）：
+   ```sql
+   DROP DATABASE old_database_name;
+   ```
+
+确保在执行这些操作之前备份数据，以防止任何数据丢失。
 
 # 一、基础
 
