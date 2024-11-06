@@ -6,7 +6,7 @@
 - **Node.js**（建议使用 LTS 版本）：可以通过 [Node.js 官网](https://nodejs.org/) 下载并安装。
 - **npm** 或 **yarn**：Node.js 安装后会自动包含 npm，yarn 需要单独安装。
 
-### 二、创建 Nuxt.js 项目
+### 二、创建 Nuxt.js 2 项目 
 
 1. **使用 create-nuxt-app**：
    这是 Nuxt.js 官方推荐的脚手架工具，可以快速创建一个 Nuxt.js 项目。
@@ -24,6 +24,12 @@
    - 包管理工具（npm 或 yarn）
    - UI 框架（如 Vuetify、Bootstrap、Tailwind CSS 等）
    - 其他功能（如 TypeScript、Axios、PWA 支持等）
+
+### 创建Nuxt 3
+
+```bash
+npx nuxi init  PROGNAME
+```
 
 ### 三、启动开发服务器
 

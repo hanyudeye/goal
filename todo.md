@@ -3,12 +3,11 @@
 ## 11月项目 
 
 - 趋势是  远程，全球化
-- 看这个博客  https://retireby40.org/i-voted/
-- 4. 做快速项目 
 - 5. Freelancer 尝试下，要记得查看提案啊，已提交了。先找兼职外包历练
 - 6. 兼职-我每周花大约10个小时开车送货。
-- nuxtjs ,mongodb
+- nuxtjs ,mongodb, sqlite
 - 下载同类的直播间视频进行训练
+- 做一个 ai 接口网站 调用免费的 claude 3.5
 
 ## TODO 我的配置文件，我现在不大用 Linux 平台，到时要重新更新下在ubuntu 下的情形 
 
