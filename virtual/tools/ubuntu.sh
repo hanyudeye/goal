@@ -33,7 +33,3 @@ sudo resize2fs /dev/disk/by-id/scsi-0DO_example # Resize volume
 
 ps -ax | grep myprocessname # Search processes
 kill -9 PROCESS_ID # Kill process PID
-
-1. 给我获取某台电脑的文件 
-
-curl
