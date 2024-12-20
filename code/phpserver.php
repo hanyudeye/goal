@@ -10,5 +10,11 @@ function test()
 }
 
 
+// 返回字符串
+function getstring()
+{
+    echo "hello,this is phpserver.php";
+}
 
-test();
+// test();
+getstring();
