@@ -7,6 +7,7 @@
 - 人工智能的发展，使得普通人能更方便产生内容，信息不再垄断，更能挣钱。
 - 学人工智能改写 内容，或自己产出内容。
 - 推广内容的 多媒体性，内容性，多样化。
+- 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 
 ## 代办清单
 
