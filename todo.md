@@ -4,6 +4,8 @@
 - 学习前端技术 react ，next 搭建博客
 - 学习cuda 编程，进入游戏，为自己工作，创建自己的事业(鸟山明)
 
+- 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
+
 ## 代办清单
 
 ### 写博客
