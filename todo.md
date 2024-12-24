@@ -9,10 +9,6 @@
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 - 用大的U盘 36G 的制作系统启动盘  https://github.com/ventoy/Ventoy,安装 virtualbox 测试下 Ubuntu和 Windows 系统 https://www.oracle.com/cn/virtualization/technologies/vm/downloads/virtualbox-downloads.html
 
-其他启动盘视频
-https://www.bilibili.com/video/BV1wN4y1y77X/?vd_source=16870bb05a9f58894f8344d93c215b85
-
-
 - 直播
 - 下载直播视频，变声，录播
 
