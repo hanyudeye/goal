@@ -24,4 +24,6 @@ t=np.array([
 ])
 # print(t)
 
-print( np.__version__)
+# print( np.__version__)
+
+
