@@ -122,3 +122,9 @@ const func6 = param => expression;
 
 
 // ES6+ 特性  end
+
+// base64转码
+let base64string='aHR0cHM6Ly9qdXN0bXlzb2Nrcy5uZXQvbWVtYmVycy9hZmYucGhwP2FmZj0zMjQ1Mw==';
+//使用atob()  解码 Base64字符串
+let decodedString=atob(base64string);
+console.log(decodedString);
