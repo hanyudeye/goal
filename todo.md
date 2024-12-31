@@ -8,10 +8,14 @@
 
 - 技术： 做一个 安卓绘图软件
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
+- 给博客添加 dark mode https://taxodium.ink/setup-blog-color-scheme.html
 
 - 虚拟的定投挣钱了，要开始做实业了。 (计算机软件也是实业)
 - 找新的业务，做幻想，想新业务 (丛林探险游戏)
 - 安装换脸程序
+- 在线字幕编辑器，支持音频提取和字幕翻译，免费使用
+https://aimu.app/
+
 
 ## 代办清单
 
@@ -23,3 +27,4 @@
 
 - todo~~（端盘子），做培训（剪视频，编程）~~
 - ~~找业务兼职，我要做高技术的，我不喜欢接触人花费时间~~
+
