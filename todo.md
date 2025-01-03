@@ -16,6 +16,9 @@ https://aimu.app/
 安装 https://blog.muxinxy.com/post/scoop-installation-tutorial
 https://zhuanlan.zhihu.com/p/419242528
 
+todo  季更博客短视频，短视频传播更快更柔和。
+下载虚拟机
+
 ## 代办清单
 ### 出闲置
 
