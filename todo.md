@@ -1,20 +1,14 @@
 习惯养成，微信群，红包
-app ibetter
+
 
 - [理论基础]人工智能的发展，使得普通人能更方便产生内容，信息不再垄断，使得普通人能挣钱。
 
-- 重新安装python ,腾出空间，清理C盘，不要的软件删除，删除 Ubuntu，用另一个ubuntu 玩，安装换脸程序
-- 创建 lofi 音乐，1 . 音乐 2. 动画
-- https://github.com/pxlrbt/move-wsl/issues/30
 - todo  做业务，不限业务类型（每天发5个广告） 图文广告 小红书，X ，视频广告 b站，抖音,tiktok
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 - 给博客添加 dark mode https://taxodium.ink/setup-blog-color-scheme.html
 - 扩大社交两个计划 ，1 直播，2 图书馆
 - 在线字幕编辑器，支持音频提取和字幕翻译，免费使用
 https://aimu.app/
-
-安装 https://blog.muxinxy.com/post/scoop-installation-tutorial
-https://zhuanlan.zhihu.com/p/419242528
 
 todo  季更博客短视频，短视频传播更快更柔和。
 下载虚拟机
