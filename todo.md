@@ -4,6 +4,10 @@
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 - 虚拟机
 - 整理硬盘文件，不用创建 NAS，就收藏文章到 git 就行
+- 英语开始进展
+
+- https://github.com/hehonghui/awesome-english-ebooks
+用平板看，阅读
 
 ### 出闲置
 

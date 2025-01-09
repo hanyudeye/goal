@@ -17,3 +17,13 @@ helps you reach financial independance with dividends
 
 investing in stocks
 投资股票
+
+53-foot trailers
+53 英尺，一英尺是 30.48cm ，大概15米，拖车
+
+oddly learn how to drive a forklift in a day 
+在一天内学会开叉车
+
+
+
+
