@@ -4,7 +4,8 @@
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 - 虚拟机
 - 整理硬盘文件，不用创建 NAS，就收藏文章到 git 就行
-
+- 创业要懂得吃苦和变通业务，修补，安装 ,博客 1 天 100 收益。
+- 录制别人的带货视频
 
 ### 出闲置
 
