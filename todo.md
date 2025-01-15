@@ -4,7 +4,8 @@
 - 实践学习，动手学习 https://github.com/MingchaoZhu/DeepLearning?tab=readme-ov-file
 - 虚拟机
 - 整理硬盘文件，不用创建 NAS，就收藏文章到 git 就行
-
+- t12 进口烙铁心
+- 永鑫科技的白菜白光T12
 
 ### 出闲置
 
