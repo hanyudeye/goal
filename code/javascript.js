@@ -129,3 +129,5 @@ let base64string='aHR0cHM6Ly9qdXN0bXlzb2Nrcy5uZXQvbWVtYmVycy9hZmYucGhwP2FmZj0zMj
 let decodedString=atob(base64string);
 // console.log(decodedString);
 
+
+console.log(atob('aHR0cDovL2NwLnU5dW4uY29tL2FmZi5waHA/YWZmPTk3MQo='))
