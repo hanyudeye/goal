@@ -1,3 +1,16 @@
+
+
+## 创建秘钥
+```
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+
+然后把公钥 id_rsa.pub 的内容复制到 Github "Account settings" 的 SSH Keys 中。
+
+## submodule
+
+git submodule add --depth=1   URL
+git submodule update --remote -merge
 ## github 仓库按照star 降序排列
 
 https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Top-100-stars.md
