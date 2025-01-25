@@ -1,13 +1,20 @@
+---
+layout: default
+toc: false
+title: thinkphp
+date:  2025-01-25T12:53:21+08:00
+---
+
+##  安装
+
 1. 安装 composer create-project  topthink/think  PROJECTNAME
 2. 运行  php think run [ -p PORT ] 默认 8000
 
 ## 开启开发下的调试模式（生产模式关闭）
 
-- 1.  .env  里面
+在 **.env** 进行配置
 
-     APP_DEBUG = true
-
-- 2. 
+APP_DEBUG = true
 
 
 ## URL 访问模式
