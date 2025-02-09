@@ -74,4 +74,9 @@ def is_armstrong_number(n):
 # print(is_armstrong_number(41))  # False
 
 
+## 字符串操作
+print("hello".upper())  # HELLO ，转为大写
+print("HELLO".lower())  # hello ，转为小写
+
+
 
