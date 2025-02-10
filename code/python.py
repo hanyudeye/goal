@@ -78,9 +78,66 @@ def is_armstrong_number(n):
 print("hello".upper())  # HELLO ，转为大写
 print("HELLO".lower())  # hello ，转为小写
 
-# 添加换行或制表符
-print("hello\nworld")
-print("hello\tworld")
+# 删除空白
+print(" hello ".strip())  # hello ，删除两边空白
+print(" hello ".lstrip())  # hello ，删除左边空白
+print(" hello ".rstrip())  # hello ，删除右边空白
+
+# 类型转换
+age=99
+print(" Happy " + str(age) + "th Birthday!")  # TypeError: can only concatenate str (not "int") to str
 
 
+# python 之禅
+# import this
 
+# 列表，数组
+print([1, 2, 3])  # [1, 2, 3]
+print(['a', 'b', 'c'][2])  # ['a', 'b', 'c']
+
+demolist=[1, 2, 3]
+demolist.append(4)  # [1, 2, 3, 4]
+# print(demolist)
+
+# 插入元素
+demolist.insert(1,'hello')
+# print(demolist)
+
+demolist.pop(-2) #删除指定位置的元素
+# print(demolist )    # [1, 'hello', 2, 4]
+
+demolist.remove('hello')  # 删除指定元素
+
+# 切片
+print(demolist[0:2])  # [1, 2]
+# 复制
+demo1list=demolist[:]
+
+# 组织列表
+demolist.sort()  # 排序
+print(demolist)  #[1, 2, 4]
+demolist.reverse()  # 反转，倒序
+print(demolist)  
+
+# 遍历列表
+for item in demolist:
+    print(item)
+
+# 创建数值列表
+for value in range(1, 5):
+    print(value)
+
+# 遍历字典
+for key, value in {'a': 1, 'b': 2}.items():
+    print(key, value)
+
+# 输入
+# input_value = input("Please input your name: ")
+# print(input_value)
+
+# 从文件中读取数据
+filename='test'
+
+with open(filename,'w') as file_object:
+    file_object.write('I love programming\n')
+    file_object.write('I love creating new games\n')
