@@ -78,5 +78,9 @@ def is_armstrong_number(n):
 print("hello".upper())  # HELLO ，转为大写
 print("HELLO".lower())  # hello ，转为小写
 
+# 添加换行或制表符
+print("hello\nworld")
+print("hello\tworld")
+
 
 
