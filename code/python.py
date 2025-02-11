@@ -145,3 +145,17 @@ with open(filename,'w') as file_object:
     
 # 单元测试
 import unittest
+
+# 存储数据
+import json
+
+# numbers=[2, 3, 5, 7, 11, 13]
+filename='numbers.json'
+# with open(filename,'w') as file_object:
+    # json.dump(numbers,file_object)
+
+# 导入json文件
+# with open(filename) as file_object:
+#     numbers=json.load(file_object)
+# print(numbers)
+
