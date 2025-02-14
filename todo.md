@@ -4,10 +4,12 @@
 
 ## 3周内确认上传 汇丰投资地址证明
 
-## 看完github star
+## 代办
 
-进度 1， 千古一号 web 。HTML，CSS用来可视化东西，JS用来控制对象行为，SQL用来合理组织数据，vue用来框架化
-进度 2，
+1. 做锻炼视频
+2. 骑车出去逛逛
+3. 模糊图片清晰  https://github.com/upscayl/upscayl?tab=readme-ov-file
+https://github.com/JoeanAmier/XHS-Downloader
 
 ## 研发主动机器人
 主动学习机器人，
@@ -21,6 +23,7 @@
 ## 做老板思维，只审核，不工作
 
 进度 1，
+
 
 ## 英语听力 
 进度：1,2
