@@ -6,10 +6,11 @@
 
 ## 代办
 
-1. 做锻炼视频
+<!-- 1. 做锻炼视频 -->
 2. 骑车出去逛逛
 3. 模糊图片清晰  https://github.com/upscayl/upscayl?tab=readme-ov-file
 https://github.com/JoeanAmier/XHS-Downloader
+4. 开发 laravel模版，创建自己框架
 
 ## 研发主动机器人
 主动学习机器人，
