@@ -11,6 +11,8 @@
 3. 模糊图片清晰  https://github.com/upscayl/upscayl?tab=readme-ov-file
 https://github.com/JoeanAmier/XHS-Downloader
 
+2.  把阿里停止定投，曲线太平稳，跌的时候买，赎回很慢，及其它限制，还是换美股。
+
 ## 研发主动机器人
 主动学习机器人，
 
