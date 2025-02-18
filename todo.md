@@ -8,9 +8,7 @@
 
 <!-- 1. 做锻炼视频 -->
 2. 骑车出去逛逛
-3. 模糊图片清晰  https://github.com/upscayl/upscayl?tab=readme-ov-file
-https://github.com/JoeanAmier/XHS-Downloader
-4. 开发 laravel模版，创建自己框架
+<!-- 4. 开发 laravel模版，创建自己框架 -->
 5. 数字人直播 封禁吗？
 6. 做搞笑短视频, 插播广告 ! 视频媒体现在真的很流行 ! 而我有简单幽默感的
 
