@@ -5,3 +5,8 @@
 
 
 文生成图工具  使用 edge浏览器自带的工具
+
+
+好用的免登录的文件中转站
+https://www.airportal.cn/
+https://www.wenshushu.cn/
