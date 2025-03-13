@@ -1,10 +1,27 @@
----
-layout: default
-toc: false
-title: 计算机生产力软件
-date:  2023-09-29T11:33:34+08:00
-categories: ['tool',"computer"]
----
+## 模糊图片变清晰  
+
+https://github.com/upscayl/upscayl?tab=readme-ov-file
+
+
+## 小红书视频下载 
+https://github.com/JoeanAmier/XHS-Downloader
+
+
+## 文生成图工具  
+https://designer.microsoft.com/
+
+## 好用的免登录的文件中转站
+https://www.airportal.cn/
+https://www.wenshushu.cn/
+
+##  youtube 字幕下载
+
+yt-dlp --write-sub --sub-lang en VIDEO_URL
+
+## ollama Web UI 控制端
+
+Page Assist - 本地 AI 模型的 Web UI
+
 
 ##  查找工具 (按文件名)
 
@@ -54,3 +71,18 @@ ubuntu.exe config --default-user {username}
 ## 应用程序在高分辨率屏幕进行缩放
 
 Exec=netease-cloud-music --force-device-scale-factor=2 %U
+
+## 远程拷贝
+
+scp /path/to/file user@server:/path/to/destination # Copy file from local to server
+
+scp /home/zhao/data/test.txt zw@10.150.69.247: /C:/Users/zw/Desktop/summary
+或
+scp /home/zhao/data/test.txt zw@10.150.69.247: /C:/Users/zw/Desktop/summary/tt.txt
+
+## ssh
+
+```
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+要用 ssh 无密码登录，要把本地公钥 ~/.ssh/id_rsa.pub 配置到服务器 的 ~/.ssh/authorized_keys 认证文件中，服务器才能接受您的认证。
