@@ -4,6 +4,8 @@
 使用微软输入法
 素材文件要注重命令规范，还有音频
 
+todo 每日研究一个 github 项目，共研究10个。
+
 ## 搭建本地翻译服务
 
 https://github.com/xxnuo/MTranServer?tab=readme-ov-file
