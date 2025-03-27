@@ -1,6 +1,9 @@
 ## TODO 1. 抖音发 心理学方面的内容
 在 X ,facebook 发
 
+使用微软输入法
+素材文件要注重命令规范，还有音频
+
 ## 搭建本地翻译服务
 
 https://github.com/xxnuo/MTranServer?tab=readme-ov-file
